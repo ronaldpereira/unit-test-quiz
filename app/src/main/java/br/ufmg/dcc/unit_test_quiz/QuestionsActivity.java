@@ -23,6 +23,7 @@ import dcc.ufmg.br.quizdetestesunidade.R;
 
 public class QuestionsActivity extends AppCompatActivity {
 
+    String questionFilePath;
     private TextView textViewText;
     private ListView listViewOptions;
     private ImageButton imageButtonRefresh;
@@ -38,6 +39,7 @@ public class QuestionsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_questions);
 
+        questionFilePath = getIntent().getStringExtra(ModulesActivity.QUESTIONS_FILE_PATH);;
         textViewText = (TextView) findViewById(R.id.textViewText);
         listViewOptions = (ListView) findViewById(R.id.listViewOptions);
         imageButtonRefresh = (ImageButton) findViewById(R.id.imageButtonRefresh);
@@ -45,12 +47,6 @@ public class QuestionsActivity extends AppCompatActivity {
 
         imageButtonTip = (ImageButton) findViewById(R.id.imageButtonTip);
         imageButtonTip.setOnClickListener(imageButtonTipOnClickListener);
-
-
-        ArrayList<String> vector = new ArrayList<>();
-        vector.add("Rafael");
-        vector.add("Ivan");
-        //hidden street
 
         listViewOptions.setOnItemClickListener(listViewOptionsOnItemClickListener);
         showRandomQuestion();
@@ -71,9 +67,9 @@ public class QuestionsActivity extends AppCompatActivity {
     private void showRandomQuestion(){
         try{
             AssetManager assets = getAssets();
-            String[] questions = assets.list("questions");
+            String[] questions = assets.list(questionFilePath);
             int randomIndex = Math.abs(new Random().nextInt()) % questions.length;
-            InputStream inputStream = assets.open("questions/" + questions[randomIndex]);
+            InputStream inputStream = assets.open(questionFilePath + "/"+ questions[randomIndex]);
             showingAnswer = false;
             showingTip = false;
             question = new Question(inputStream);

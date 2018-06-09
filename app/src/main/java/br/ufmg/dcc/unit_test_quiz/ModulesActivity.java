@@ -2,7 +2,10 @@ package br.ufmg.dcc.unit_test_quiz;
 
 import android.content.ClipData;
 import android.content.Context;
+import android.content.Intent;
+import android.content.res.AssetManager;
 import android.os.Bundle;
+import android.renderscript.ScriptGroup;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
@@ -13,11 +16,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import dcc.ufmg.br.quizdetestesunidade.R;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -28,14 +39,22 @@ public class ModulesActivity extends AppCompatActivity {
         MODULE, ACTIVITY
     }
 
+    public static final String QUESTIONS_FILE_PATH="questionsFilePath";
+
     public static class ListItem {
         public ItemType type;
         public String text;
+        public String questionsFilePath;
 
         ListItem(ItemType type, String text) {
             this.type = type;
             this.text = text;
+            this.questionsFilePath = null;
 
+        }
+
+        public void setQuestionsFilePath(String questionsFilePath) {
+            this.questionsFilePath = questionsFilePath;
         }
 
         @Override
@@ -86,6 +105,52 @@ public class ModulesActivity extends AppCompatActivity {
         }
     }
 
+    private ArrayList<ListItem> readActivities(){
+
+        ArrayList<ListItem> results = new ArrayList<>();
+        AssetManager assets = getAssets();
+        InputStream inputStream;
+        String jsonString = null;
+        JSONArray jsonArray = null;
+        try{
+            inputStream = assets.open("activities.json");
+            jsonString = IOUtils.readInputStream(inputStream);
+        }
+        catch (IOException ioex){
+            ioex.getStackTrace();
+            System.exit(1);
+        }
+
+        try {
+            jsonArray = new JSONArray(jsonString);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject module = jsonArray.getJSONObject(i);
+                results.add(new ListItem(
+                        ItemType.MODULE,
+                        module.getString("name"))
+                );
+
+                JSONArray activities = module.getJSONArray("activities");
+
+                for (int i1 = 0; i1 < activities.length(); i1++) {
+                    JSONObject activity = activities.getJSONObject(i1);
+                    ListItem item = new ListItem(
+                            ItemType.ACTIVITY,
+                            activity.getString("name"));
+                    item.setQuestionsFilePath(activity.getString(QUESTIONS_FILE_PATH));
+                    results.add(item);
+                }
+
+
+            }
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        return results;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -93,35 +158,26 @@ public class ModulesActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
         ListView lv = (ListView) findViewById(R.id.activities_list_view);
 
-        ArrayList<ListItem> items = new ArrayList<>();
-        items.add(new ListItem(ItemType.MODULE, "Conceitos básicos"));
-        items.add(new ListItem(ItemType.ACTIVITY, "Testes automatizados"));
-        items.add(new ListItem(ItemType.ACTIVITY, "Classes de equivalência e comportamento"));
-
-        items.add(new ListItem(ItemType.MODULE, "Testes de unidade"));
-        items.add(new ListItem(ItemType.ACTIVITY, "Controladores e cotos"));
-        items.add(new ListItem(ItemType.ACTIVITY, "Testando métodos privados"));
-
-        items.add(new ListItem(ItemType.MODULE, "Outros testes"));
-        items.add(new ListItem(ItemType.ACTIVITY, "Teste de desempenho"));
-
+        final ArrayList<ListItem> items = readActivities();
         ItemAdapter adapter = new ItemAdapter(this, items);
 
+        lv.setOnItemClickListener(
+                new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                        Intent intent = new Intent(ModulesActivity.this, QuestionsActivity.class);
+                        intent.putExtra(QUESTIONS_FILE_PATH, items.get(position).questionsFilePath);
+                        startActivity(intent);
+                    }
+                }
+        );
 
         lv.setAdapter(adapter);
-
-        // Performatividade de trabalho
     }
+
+
+
 
 }

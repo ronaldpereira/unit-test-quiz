@@ -1,0 +1,16 @@
+[
+	{
+		"name":"Conceitos Básicos",
+		"activities":
+		[
+			{
+				"name":"Testes automatizados",
+				"questionsFilePath":"questions/testes_automatizados"
+			},
+			{
+				"name":"Classe de equivalência e comportamento",
+				"questionsFilePath":"questions/classes_eq_comport"
+			}
+		]
+	}
+]
