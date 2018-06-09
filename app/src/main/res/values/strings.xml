@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">unit-test-quiz</string>
+    <string name="title_activity_modules">ModulesActivity</string>
 </resources>

@@ -21,7 +21,7 @@ import java.util.Random;
 
 import dcc.ufmg.br.quizdetestesunidade.R;
 
-public class MainActivity extends AppCompatActivity {
+public class QuestionsActivity extends AppCompatActivity {
 
     private TextView textViewText;
     private ListView listViewOptions;
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_questions);
 
         textViewText = (TextView) findViewById(R.id.textViewText);
         listViewOptions = (ListView) findViewById(R.id.listViewOptions);
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             question = new Question(inputStream);
             textViewText.setText(String.format("%s\n%s", question.getTitle(), question.getText()));
             listViewOptions.setAdapter(
-                    new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, question.getOptions()){
+                    new ArrayAdapter<String>(QuestionsActivity.this, android.R.layout.simple_list_item_1, question.getOptions()){
                         @NonNull
                         @Override
                         public View getView(int position, View convertView, ViewGroup parent) {
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
             );
         }
         catch (Exception ex) {
-            Toast.makeText(MainActivity.this, ex.getMessage(), Toast.LENGTH_SHORT).show(); //#TODO
+            Toast.makeText(QuestionsActivity.this, ex.getMessage(), Toast.LENGTH_SHORT).show(); //#TODO
         }
     }
 

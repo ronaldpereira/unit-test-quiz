@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="dcc.ufmg.br.quizdetestesunidade">
+<manifest package="dcc.ufmg.br.quizdetestesunidade"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="TestWiz"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="br.ufmg.dcc.unit_test_quiz.MainActivity">
+        <activity android:name="br.ufmg.dcc.unit_test_quiz.QuestionsActivity">
+        </activity>
+        <activity
+            android:name="br.ufmg.dcc.unit_test_quiz.ModulesActivity"
+            android:label="@string/title_activity_modules"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
