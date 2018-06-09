@@ -61,16 +61,17 @@ public class QuestionsActivity extends AppCompatActivity {
             @Override
             public void onLayoutChange(View v, int left, int top, int right, int bottom, int oldLeft, int oldTop, int oldRight, int oldBottom) {
                 if (showingAnswer) {
-                    playerPoints++;
+                    if (question.getAnswer() == playerAnswerPosition) {
+                        playerPoints++;
+                        TextView textView = (TextView) findViewById(R.id.playerPoints);
+                        textView.setText(Integer.toString(playerPoints));
+                    }
                     handler.postDelayed(new Runnable() {
                         @Override
                         public void run() {
                             showRandomQuestion();
                         }
                     }, 1000);
-
-                    TextView textView = (TextView) findViewById(R.id.playerPoints);
-                    textView.setText(Integer.toString(playerPoints));
                 }
             }
         });
