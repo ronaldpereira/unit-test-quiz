@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="TestWiz"
+        android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="br.ufmg.dcc.unit_test_quiz.QuestionsActivity">

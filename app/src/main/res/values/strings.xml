@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">unit-test-quiz</string>
-    <string name="title_activity_modules">ModulesActivity</string>
+    <string name="app_name">Testwiz</string>
+    <string name="title_activity_modules">Testwiz</string>
 </resources>

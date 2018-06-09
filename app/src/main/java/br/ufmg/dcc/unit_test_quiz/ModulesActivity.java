@@ -32,7 +32,7 @@ public class ModulesActivity extends AppCompatActivity {
         public ItemType type;
         public String text;
 
-        public ListItem(ItemType type, String text) {
+        ListItem(ItemType type, String text) {
             this.type = type;
             this.text = text;
 
@@ -45,7 +45,7 @@ public class ModulesActivity extends AppCompatActivity {
     }
 
     public class ItemAdapter extends ArrayAdapter<ListItem> {
-        public ItemAdapter(@NonNull Context context, @NonNull List<ListItem> objects) {
+        ItemAdapter(@NonNull Context context, @NonNull List<ListItem> objects) {
             super(context, 0, objects);
         }
 
@@ -62,11 +62,23 @@ public class ModulesActivity extends AppCompatActivity {
             assert item != null;
 
             if (convertView == null) {
-                convertView = LayoutInflater.from(getContext()).inflate(
-                        item.type == ItemType.MODULE ? R.layout.module_list_item : R.layout.activities_list_item,
+                if (item.type == ItemType.MODULE) {
+                    convertView = LayoutInflater.from(getContext()).inflate(
+                        R.layout.module_list_item,
                         parent, false
-                );
+                    );
+
+                    convertView.setClickable(false);
+                    convertView.setOnClickListener(null);
+                }
+                else {
+                    convertView = LayoutInflater.from(getContext()).inflate(
+                            R.layout.activities_list_item,
+                            parent, false
+                    );
+                }
             }
+
 
             ((TextView) convertView).setText(item.text);
 
