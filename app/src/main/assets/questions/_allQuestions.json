@@ -1,0 +1,566 @@
+{
+	"classes_eq_comport/q21.json":{
+        "title": "Considere, por hip\u00f3tese, que na Defensoria esteja sendo desenvolvido um projeto com prazo cr\u00edtico, sendo necess\u00e1rio que os desenvolvedores avaliem o software frequentemente. A equipe envolvida decidiu utilizar uma abordagem de teste de integra\u00e7\u00e3o que trabalha da seguinte maneira:",
+        "text": "I. Componentes necess\u00e1rios para implementar fun\u00e7\u00f5es do software, como arquivos de dados, bibliotecas, m\u00f3dulos reutiliz\u00e1veis etc s\u00e3o integrados em uma build (constru\u00e7\u00e3o).\nII. Diversos testes s\u00e3o projetados para que erros que possam impedir a build em andamento de desempenhar de forma adequada sua fun\u00e7\u00e3o, com o objetivo de descobrir showstoppers que impliquem em atrasos no cronograma.\nIII. A build \u00e9 integrada a outras builds e todo o software passa diariamente por este tipo de teste, podendo usar abordagem ascendente ou descendente de integra\u00e7\u00e3o.\n\n\nO teste de integra\u00e7\u00e3o descrito \u00e9 denominado teste",
+        "options": [
+                "de fuma\u00e7a.",
+                "de regress\u00e3o.",
+                "top-down.",
+                "breadth-first."
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q22.json":{
+        "title": "",
+        "text": "Considere o seguinte texto: Uma t\u00e9cnica sistem\u00e1tica para construir a estrutura do programa enquanto, ao mesmo tempo, conduz testes para descobrir erros associados \u00e0s interfaces. O objetivo \u00e9 tomar componentes testados em n\u00edvel de unidade e construir a estrutura de programa determinada pelo projeto. A afirma\u00e7\u00e3o apresentada est\u00e1 se referindo ao teste de:",
+        "options": [
+                "integra\u00e7\u00e3o.",
+                "unidade.",
+                "valida\u00e7\u00e3o.",
+                "sistema."
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q23.json":{
+        "title": "",
+        "text": "Com rela\u00e7\u00e3o a teste de software, quando questionado sobre a constru\u00e7\u00e3o de um produto corretamente, a refer\u00eancia se d\u00e1 ao conjunto de atividades que garantem que o software implemente corretamente uma fun\u00e7\u00e3o espec\u00edfica. Este conceito se refere \u00e0:",
+        "options": [
+                "valida\u00e7\u00e3o.",
+                "homologa\u00e7\u00e3o.",
+                "aceita\u00e7\u00e3o.",
+                "recupera\u00e7\u00e3o."
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q24.json":{
+        "title": "A respeito de an\u00e1lise, projeto, implementa\u00e7\u00e3o e testes de\u00a0software, julgue o seguinte item.",
+        "text": "O particionamento de equival\u00eancia \u00e9 uma t\u00e9cnica de teste caixa-preta caracterizada por dividir o dom\u00ednio de entrada de um m\u00f3dulo em classes de equival\u00eancia, a partir das quais casos de teste s\u00e3o derivados.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q25.json":{
+        "title": "No que diz respeito a desenvolvimento e \u00e0 manuten\u00e7\u00e3o de sistemas e aplica\u00e7\u00f5es, julgue o pr\u00f3ximo item.",
+        "text": "Uma a\u00e7\u00e3o importante no processo de desenvolvimento de sistemas \u00e9 realizar o teste do c\u00f3digo, que \u00e9 uma maneira de encontrar inconsist\u00eancias.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q26.json":{
+        "title": "",
+        "text": "Para apoiar a automa\u00e7\u00e3o de testes em um workbench de testes de software, utiliza-se a ferramenta de",
+        "options": [
+                "constru\u00e7\u00e3o de aplica\u00e7\u00e3o low code.",
+                "orquestra\u00e7\u00e3o de cont\u00eainer.",
+                "compara\u00e7\u00e3o de arquivos.",
+                "cache HTTP"
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q27.json":{
+        "title": "",
+        "text": "O TDD (Test-Driven Development), que vem sendo adotado para testar os projetos de software,",
+        "options": [
+                "utiliza os testes de caixa preta antes da entrega do software.",
+                "agiliza os testes por amostragem sem compatibilidade retroativa.",
+                "cobre amplamente os testes unit\u00e1rios.",
+                "escreve o teste antes da codifica\u00e7\u00e3o do software."
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q28.json":{
+        "title": "",
+        "text": "Em testes de software, a divis\u00e3o do dom\u00ednio de entrada de um m\u00f3dulo em um conjunto de estados v\u00e1lidos ou inv\u00e1lidos das condi\u00e7\u00f5es de entrada \u00e9 realizada por meio de",
+        "options": [
+                "teste de caminho b\u00e1sico/l\u00f3gico.",
+                "particionamento de equival\u00eancia.",
+                "an\u00e1lise de valor limite.",
+                "teste funcional sistem\u00e1tico."
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q29.json":{
+        "title": "Durante a fase de teste de um software desenvolvido para um sistema em tempo real que usa mem\u00f3ria compartilhada, um Analista de Sistemas verificou que, apesar de seus componentes j\u00e1 terem sido testados de modo individual e terem tido todos os erros corrigidos, ele n\u00e3o funcionava como deveria, de acordo com sua especifica\u00e7\u00e3o. O Analista realizou, ent\u00e3o, um teste de interface que conseguiu detectar o erro. O motivo era que o produtor e o consumidor de dados estavam operando em velocidades diferentes e o consumidor estava acessando informa\u00e7\u00e3o desatualizada, pois o produtor da informa\u00e7\u00e3o n\u00e3o atualizava as informa\u00e7\u00f5es da interface compartilhada.",
+        "text": "Na Engenharia de Software, o tipo de teste de interface e o erro detectado s\u00e3o denominados, correta e respectivamente, interface de",
+        "options": [
+                "passagem de mensagem e erro de timing.",
+                "passagem de mensagem e erro de mau uso de interface.",
+                "componente e erro de procedimento.",
+                "mem\u00f3ria compartilhada e erro de procedimento."
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q30.json":{
+        "title": "",
+        "text": "Os testes de software devem ser executados em todas as etapas do ciclo de vida do processo de desenvolvimento de software. Dentre os tipos de testes a serem aplicados, o teste de",
+        "options": [
+                "unidade \u00e9 um teste est\u00e1tico realizado para verificar as unidades individuais: fun\u00e7\u00f5es, objetos e componentes.",
+                "unidade \u00e9 um teste din\u00e2mico com o foco em verificar as menores unidades do programa e podem utilizar ferramentas de automa\u00e7\u00e3o (Ex.: Junit).",
+                "aceita\u00e7\u00e3o \u00e9 um teste est\u00e1tico realizado logo ap\u00f3s o teste de unidade para verificar a integra\u00e7\u00e3o entre os componentes de software.",
+                "aceita\u00e7\u00e3o \u00e9 um teste est\u00e1tico realizado para verificar a camada de apresenta\u00e7\u00e3o, principalmente em aplica\u00e7\u00f5es Web."
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q31.json":{
+        "title": "",
+        "text": "Considere um teste de software com a seguinte defini\u00e7\u00e3o: abordagem de teste de integra\u00e7\u00e3o usada em tempo de desenvolvimento, como um mecanismo de marca-passo para projetos com prazo cr\u00edtico, em que a constru\u00e7\u00e3o \u00e9 integrada a outras constru\u00e7\u00f5es e o produto inteiro (em sua forma atual) passa diariamente pelo teste. Essas s\u00e3o caracter\u00edsticas do teste",
+        "options": [
+                "de seguran\u00e7a.",
+                "de funcionalidade.",
+                "fuma\u00e7a."
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q32.json":{
+        "title": "",
+        "text": "A respeito de engenharia de software, assinale a op\u00e7\u00e3o correta.",
+        "options": [
+                "A finalidade dos testes de seguran\u00e7a \u00e9 garantir que o sistema se recupere de uma falha e esteja apto a retomar o processamento em um prazo preestabelecido.",
+                "Efetuar testes de regress\u00e3o consiste em reexecutar testes j\u00e1 finalizados para garantir que eventuais altera\u00e7\u00f5es n\u00e3o tenham impactado fun\u00e7\u00f5es que antes funcionavam corretamente.",
+                "Os testes de integra\u00e7\u00e3o ascendentes s\u00e3o caracterizados pelo fato de a sua realiza\u00e7\u00e3o ocorrer conforme o desenvolvimento dos m\u00f3dulos."
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q33.json":{
+        "title": "",
+        "text": "Os elementos que fornecem acesso \u00e0s informa\u00e7\u00f5es obtidas pelo JMeter durante os testes de carga s\u00e3o denominados tecnicamente de:",
+        "options": [
+                "Listeners",
+                "Controllers",
+                "Timers",
+                "Assertions"
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q34.json":{
+        "title": "",
+        "text": "O gerente solicitou a pesquisa de softwares para a automa\u00e7\u00e3o de testes. No caso atual, existe a necessidade urgente de testar aplicativos Web. A poss\u00edvel escolha seria a ferramenta:",
+        "options": [
+                "Selenium",
+                "Jboss",
+                "SpecFlow",
+                "NodeJS"
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q35.json":{
+        "title": "De acordo com o Sommerville na 9\u00aa edi\u00e7\u00e3o em ingl\u00eas do seu livro Software Engineering, os passos do TDD s\u00e3o essencialmente os seguintes:",
+        "text": "1. You start by identifying the increment of functionality that is required. This should normally be small and implementable in a few lines of code.\n2. You write a test for this functionality and implement this as an automated test. This means that the test can be executed and will report whether or not it has passed or failed.\n3. You then run the test, along with all other tests that have been implemented. Initially, you have not implemented the functionality so the new test will fail. This is deliberate as it shows that the test adds something to the test set.\n4. You then implement the functionality and re-run the test. This may involve refactoring existing code to improve it and add new code to what\u2019s already there.\n5. Once all tests run successfully, you move on to implementing the next chunk of functionality.\n\n\nSobre eles, \u00e9 INCORRETO afirmar que",
+        "options": [
+                "o passo 1 envolve implementar algumas linhas de c\u00f3digo da funcionalidade requerida.",
+                "no passo 2, o teste deve ser escrito.",
+                "no passo 3, todos os testes devem ser executados juntos, e, como a funcionalidade ainda n\u00e3o foi implementada, o novo teste vai falhar.",
+                "a funcionalidade deve ser implementada no passo 4."
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q36.json":{
+        "title": "",
+        "text": "Sobre as atividades de um processo de software, \u00e9 INCORRETO afirmar que",
+        "options": [
+                "na atividade de valida\u00e7\u00e3o de software, podemos realizar diferentes tipos de testes. Entre eles, est\u00e1 o teste de aceita\u00e7\u00e3o em que os componentes dos sistemas s\u00e3o testados de maneira integrada, para encontrar erros resultantes da intera\u00e7\u00e3o entre os componentes.",
+                "na etapa de valida\u00e7\u00e3o de requisitos, que faz parte da atividade de especifica\u00e7\u00e3o de software, a sa\u00edda \u00e9 uma atualiza\u00e7\u00e3o do documento de requisitos.",
+                "a atividade de evolu\u00e7\u00e3o do software pode ser enxergada como um processo, que perdura por todo o ciclo de vida do software em que ele \u00e9 continuamente modificado para atender as demandas.",
+                "o estudo de viabilidade faz parte da atividade de especifica\u00e7\u00e3o do software."
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q37.json":{
+        "title": "A etapa \u201cTestar os Requisitos Constru\u00eddos\u201d do m\u00e9todo MAgil recomenda a aplica\u00e7\u00e3o das estrat\u00e9gias de teste definidas pelo projeto para minimizar os defeitos e n\u00e3o conformidades do produto no momento de sua verifica\u00e7\u00e3o no ambiente de homologa\u00e7\u00e3o, aumentando as chances de sua aprova\u00e7\u00e3o pelo Product Owner. S\u00e3o atividades previstas nesta etapa:",
+        "text": "\u2212 Realizar o teste unit\u00e1rio da funcionalidade.\n\u2212 Preparar e realizar os testes de integra\u00e7\u00e3o e de regress\u00e3o.\n\u2212 Realizar teste de verifica\u00e7\u00e3o e valida\u00e7\u00e3o da funcionalidade.\n\u2212 Autorizar, na medida do poss\u00edvel, os testes unit\u00e1rios, de integra\u00e7\u00e3o e funcionais.\n\n\nO teste",
+        "options": [
+                "unit\u00e1rio de classes de objetos fica mais complicado com generaliza\u00e7\u00e3o e heran\u00e7a, pois n\u00e3o se pode testar um m\u00e9todo na classe em que est\u00e1 definido e assumir que funcionar\u00e1 corretamente nas classes que herdam este m\u00e9todo.",
+                "de valida\u00e7\u00e3o \u00e9 uma t\u00e9cnica sistem\u00e1tica para construir a arquitetura do software enquanto, ao mesmo tempo, conduz testes para descobrir erros associados \u00e0s interfaces. O objetivo \u00e9, a partir de componentes testados no n\u00edvel de unidade, construir uma estrutura de programa determinada pelo projeto.",
+                "de verifica\u00e7\u00e3o \u00e9 a reexecu\u00e7\u00e3o de algum subconjunto de testes que j\u00e1 foi conduzido para garantir que as modifica\u00e7\u00f5es n\u00e3o propaguem efeitos colaterais indesejados.",
+                "de regress\u00e3o \u00e9 conhecido como teste de caixa branca ou teste de caixa preta."
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q38.json":{
+        "title": "Considere o ciclo do Test-Driven Development \u2013 TDD.",
+        "text": "\n\n\n\nA caixa",
+        "options": [
+                "2. corresponde a \u201cExecute os testes automatizados\u201d.",
+                "4. corresponde a \u201cRefatore o c\u00f3digo\u201d.",
+                "5. corresponde a \u201cExecute os testes novamente e observe os resultados\u201d.",
+                "4. corresponde a \u201cExecute os testes automatizados\u201d."
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q39.json":{
+        "title": "Considerando os conceitos da engenharia de software no escopo de teste de software, julgue os itens a seguir.",
+        "text": "I Denomina-se defeito a produ\u00e7\u00e3o de uma sa\u00edda incorreta com rela\u00e7\u00e3o \u00e0 especifica\u00e7\u00e3o.\nII A a\u00e7\u00e3o humana que produz um resultado incorreto \u2014 como a a\u00e7\u00e3o incorreta de um programador \u2014 configura engano.\nIII Define-se erro a diferen\u00e7a entre o valor obtido e o valor esperado, ou seja, qualquer estado intermedi\u00e1rio incorreto ou resultado inesperado na execu\u00e7\u00e3o do programa.\nIV Falha \u00e9 uma instru\u00e7\u00e3o ou um comando incorreto.\n\n\nEst\u00e3o certos apenas os itens",
+        "options": [
+                "I e II.",
+                "I e IV.",
+                "II e III.",
+                "II e IV."
+        ],
+        "answer": 0
+	},
+	"classes_eq_comport/q40.json":{
+        "title": "",
+        "text": "Durante o planejamento de um projeto e a elabora\u00e7\u00e3o dos casos de uso, foram inclu\u00eddos diversos componentes para c\u00e1lculos de tributos e da quantidade de recursos or\u00e7ament\u00e1rios alocados. De acordo com os n\u00edveis de testes existentes, o resultado de um dos componentes em quest\u00e3o poder\u00e1 ser validado por meio do teste",
+        "options": [
+                "unit\u00e1rio.",
+                "de sistema.",
+                "de aceita\u00e7\u00e3o.",
+                "de codifica\u00e7\u00e3o."
+        ],
+        "answer": 0
+	},
+	"conceitos_gerais/q43.json":{
+        "title": "No que diz respeito \u00e0 engenharia de testes, julgue o item subsecutivo.",
+        "text": "A ferramenta SVN, tamb\u00e9m denominada subversion, \u00e9 mais eficiente na transmiss\u00e3o e no armazenamento de arquivos textos do que de arquivos bin\u00e1rios.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 1
+	},
+	"conceitos_gerais/q44.json":{
+        "title": "No que diz respeito \u00e0 engenharia de testes, julgue o item subsecutivo.",
+        "text": "A medida de complexidade ciclom\u00e1tica \u00e9 obtida pela contagem de estruturas de sele\u00e7\u00e3o e repeti\u00e7\u00e3o ou pela contagem do n\u00famero de regi\u00f5es do grafo de fluxo, tendo a segunda t\u00e9cnica menor precis\u00e3o que a primeira.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 1
+	},
+	"conceitos_gerais/q46.json":{
+        "title": "",
+        "text": "O termo \"Alfa teste\" caracteriza testes de software que:",
+        "options": [
+                "Empregam primordialmente t\u00e9cnicas conhecidas como \"Black box\"",
+                "S\u00e3o equivalentes aos testes conhecidos pelo termo \"Beta teste\"",
+                "Focam em pontos como performance e confiabilidade",
+                "S\u00e3o realizados em ambientes controlados pelo desenvolvedor",
+                "S\u00e3o realizados por usu\u00e1rios externos, em condi\u00e7\u00f5es de uso semelhantes \u00e0s de produ\u00e7\u00e3o"
+        ],
+        "answer": 3
+	},
+	"conceitos_gerais/q47.json":{
+        "title": "",
+        "text": "No contexto do teste de software, o termo \"Beta teste\" caracteriza testes que:",
+        "options": [
+                "Empregam primordialmente t\u00e9cnicas conhecidas como \"Black box\"",
+                "S\u00e3o equivalentes aos testes conhecidos pelo termo \"Beta teste\"",
+                "Focam em pontos como performance e confiabilidade",
+                "S\u00e3o realizados em ambientes controlados pelo desenvolvedor",
+                "S\u00e3o realizados por usu\u00e1rios externos, em condi\u00e7\u00f5es de uso semelhantes \u00e0s de produ\u00e7\u00e3o"
+        ],
+        "answer": 4
+	},
+	"conceitos_gerais/q48.json":{
+        "title": "A atividade de teste de software contribui para revelar defeitos latentes nos programas.",
+        "text": "Em rela\u00e7\u00e3o \u00e0s t\u00e9cnicas de testes de software, \u00e9 correto afirmar que:",
+        "options": [
+                "Testes de caixa branca t\u00eam por objetivo testar o c\u00f3digo fonte, testar cada linha de c\u00f3digo poss\u00edvel, testar os fluxos b\u00e1sicos e os alternativos",
+                "Testes de regress\u00e3o t\u00eam por objetivo verificar se o sistema se mant\u00e9m funcionando de maneira satisfat\u00f3ria ap\u00f3s longos e intensos per\u00edodos de uso",
+                "Todas as declara\u00e7\u00f5es internas do programa devem ser testadas pelo menos uma vez durante os testes funcionais",
+                "Testes de unidade se preocupam em exercitar o sistema al\u00e9m de sua carga m\u00e1xima de projeto, at\u00e9 que ele falhe",
+                "Testes de usabilidade verificam se o software instala como planejado, em diferentes hardwares e sob diferentes condi\u00e7\u00f5es"
+        ],
+        "answer": 0
+	},
+	"conceitos_gerais/q49.json":{
+        "title": "",
+        "text": "Considere os diferentes n\u00edveis de teste de funcionalidade de um software. Os testes de sistema est\u00e3o para a Engenharia de Sistemas, assim como",
+        "options": [
+                "os testes de integra\u00e7\u00e3o e de valida\u00e7\u00e3o est\u00e3o, respectivamente, para o c\u00f3digo e o projeto",
+                "os testes de unidades e de integra\u00e7\u00e3o est\u00e3o, respectivamente, para os requisitos e o projeto",
+                "os testes de unidades e de valida\u00e7\u00e3o est\u00e3o, respectivamente, para o c\u00f3digo e o projeto",
+                "os testes de valida\u00e7\u00e3o e de integra\u00e7\u00e3o est\u00e3o, respectivamente, para os requisitos e o projeto"
+        ],
+        "answer": 3
+	},
+	"conceitos_gerais/q50.json":{
+        "title": "",
+        "text": "Quanto ao teste de software, \u00e9 correto afirmar que os testes ",
+        "options": [
+                "funcionais s\u00e3o um tipo de teste de caixa branca",
+                "de unidade s\u00e3o feitos para identificar comportamentos inapropriados entre sistemas distintos",
+                "funcionais t\u00eam base nos algoritmos elaborados pelo programador",
+                "funcionais, ou de caixa branca, verificam a performance do sistema",
+                "estruturais, ou de caixa branca, s\u00e3o elaborados para identificar erros no c\u00f3digo"
+        ],
+        "answer": 4
+	},
+	"conceitos_gerais/q51.json":{
+        "title": "",
+        "text": "A respeito da elabora\u00e7\u00e3o de um plano de testes de software, assinale a alternativa correta.",
+        "options": [
+                "N\u00e3o \u00e9 necess\u00e1rio definir previamente que testes ser\u00e3o feitos.",
+                "Testes de desempenho n\u00e3o s\u00e3o realizados nos m\u00f3dulos, apenas com o sistema completo.",
+                "O plano de testes de software pode abranger casos de testes desde as primeiras entregas at\u00e9 o sistema completo.",
+                "Os casos de testes devem ser definidos ap\u00f3s o desenvolvimento do software.",
+                "N\u00e3o \u00e9 poss\u00edvel ter testes funcionais e estruturais em um mesmo plano de testes."
+        ],
+        "answer": 2
+	},
+	"conceitos_gerais/q53.json":{
+        "title": "",
+        "text": "O simples fato de um projeto ter excelentes desenvolvedores n\u00e3o torna o software resultante livre de falhas. Para tanto, existe uma \u00e1rea da Computa\u00e7\u00e3o que se preocupa com a qualidade do produto final entregue, ou seja, o Software. Dentro do planejamento e gest\u00e3o do teste, temos dois testes em espec\u00edfico chamados de teste de recupera\u00e7\u00e3o e teste de estresse. Assinale a alternativa que melhor descreve esses dois testes.",
+        "options": [
+                "Teste de recupera\u00e7\u00e3o for\u00e7a o sistema a falhar de diversas formas distintas e avalia se a recupera\u00e7\u00e3o \u00e9 adequada ao esperado. Teste de estresse executa o sistema de formas anormais, buscando identificar qual ser\u00e1 o ponto de falha e assim determinar seus limites.",
+                "Teste de recupera\u00e7\u00e3o for\u00e7a uma dada funcionalidade a ser executada tantas vezes forem necess\u00e1rias at\u00e9 sua falha. Isso determina a vida \u00fatil da funcionalidade. Teste de estresse executa o sistema de forma a falhar inesperadamente, buscando identificar pontos de falha n\u00e3o conhecidos.",
+                "Teste de recupera\u00e7\u00e3o executa o sistema de formas anormais, buscando identificar qual ser\u00e1 o ponto de falha e, assim, determinar seus limites. Teste de estresse for\u00e7a o sistema a falhar de diversas formas distintas e avalia se a recupera\u00e7\u00e3o \u00e9 adequada ao esperado.",
+                "Teste de recupera\u00e7\u00e3o verifica se os mecanismos de prote\u00e7\u00e3o incorporados a um sistema v\u00e3o de fato proteg\u00ea-los. Teste de estresse s\u00e3o frequentemente acoplados a testes de recupera\u00e7\u00e3o e usualmente requerem instrumenta\u00e7\u00e3o, tanto de hardware quanto de software.",
+                "Teste de recupera\u00e7\u00e3o \u00e9 frequentemente acoplado a testes de estresse e usualmente requerem instrumenta\u00e7\u00e3o, tanto de hardware quanto de software. Teste de estresse verifica se os mecanismos de prote\u00e7\u00e3o incorporados a um sistema v\u00e3o de fato proteg\u00ea-los."
+        ],
+        "answer": 0
+	},
+	"testes_automatizados/q1.json":{
+        "title": "Acerca de testes de software, julgue o item que se segue.",
+        "text": "Teste de software pode ser definido como o processo de execu\u00e7\u00e3o de um programa ou sistema com a inten\u00e7\u00e3o de se verificar se o mesmo est\u00e1 de acordo com o planejado nas especifica\u00e7\u00f5es dos seus requisitos.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"testes_automatizados/q10.json":{
+        "title": "Com rela\u00e7\u00e3o ao processo de testes de\u00a0software, julgue o item a seguir.",
+        "text": "O planejamento de testes deve ser documentado em um plano de teste mestre, no qual sejam agrupados os diferentes n\u00edveis de aplica\u00e7\u00e3o e descritos os documentos a serem utilizados bem como as atividades de teste.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"testes_automatizados/q11.json":{
+        "title": "No que se refere a ferramentas de testes de software, julgue o item seguinte.",
+        "text": "Uma ferramenta de medi\u00e7\u00e3o de cobertura, intrusiva ou n\u00e3o intrusiva, \u00e9 utilizada para se calcular a porcentagem de estruturas de c\u00f3digo que s\u00e3o exercitadas por um dado conjunto de testes.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"testes_automatizados/q12.json":{
+        "title": "No que se refere a ferramentas de testes de\u00a0software, julgue o item seguinte.",
+        "text": "As ferramentas de execu\u00e7\u00e3o do teste s\u00e3o classificadas como ferramentas de suporte para execu\u00e7\u00e3o e registro e t\u00eam, como vantagem, o fato de n\u00e3o requererem um grande esfor\u00e7o para a obten\u00e7\u00e3o de resultados expressivos.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"testes_automatizados/q13.json":{
+        "title": "No que se refere a ferramentas de testes de\u00a0software, julgue o item seguinte.",
+        "text": "A ferramenta de an\u00e1lise din\u00e2mica \u00e9 aplicada para se encontrarem defeitos que s\u00f3 s\u00e3o evidenciados quando o software est\u00e1 em execu\u00e7\u00e3o, como, por exemplo, vazamento de mem\u00f3ria.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"testes_automatizados/q14.json":{
+        "title": "",
+        "text": "No \u00e2mbito da Engenharia de Software, testes de unidade s\u00e3o aqueles realizados:",
+        "options": [
+                "no sistema como um todo, de maneira que este mostre conformidade em rela\u00e7\u00e3o \u00e0 especifica\u00e7\u00e3o de requisitos.",
+                "sobre as menores estruturas de c\u00f3digo-fonte, como m\u00e9todos e classes.",
+                "para verifica\u00e7\u00e3o de integra\u00e7\u00e3o entre m\u00f3dulos, de maneira que estes mostrem unidade."
+        ],
+        "answer": 1
+	},
+	"testes_automatizados/q15.json":{
+        "title": "",
+        "text": "Em um processo de desenvolvimento iterativo e incremental, os testes s\u00e3o",
+        "options": [
+                "produzidos e executados ao final do projeto.",
+                "produzidos e executados em cada itera\u00e7\u00e3o.",
+                "produzidos no in\u00edcio do projeto e executados no final."
+        ],
+        "answer": 0
+	},
+	"testes_automatizados/q16.json":{
+        "title": "Julgue o seguinte item, relativo a teste de software.",
+        "text": "Testes de regress\u00e3o servem ao prop\u00f3sito de verificar se o sistema pode operar na carga necess\u00e1ria, fazendo-a regredir constantemente at\u00e9 que o comportamento de falha do sistema seja testado ou que defeitos sejam identificados.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"testes_automatizados/q17.json":{
+        "title": "Julgue o seguinte item, relativo a teste de\u00a0software.",
+        "text": "Em um processo de cascata, testes de sistemas testam todo o sistema, enquanto, em processos de desenvolvimento iterativo, ser\u00e1 testado apenas um incremento a ser entregue ao cliente.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"testes_automatizados/q18.json":{
+        "title": "Julgue o seguinte item, relativo a teste de\u00a0software.",
+        "text": "Em testes de integra\u00e7\u00e3o, a estrat\u00e9gia de integra\u00e7\u00e3o bottom-up integrar\u00e1 componentes de infraestrutura que fornecem servi\u00e7os comuns, adicionando a eles componentes funcionais; para testar uma nova caracter\u00edstica, pode ser necess\u00e1rio integrar componentes diferentes.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"testes_automatizados/q19.json":{
+        "title": "Considere as seguintes afirmativas a respeito de teste de software e assinale a alternativa correta.",
+        "text": "I. O teste de unidade concentra o esfor\u00e7o de verifica\u00e7\u00e3o na menor unidade de design de software.\nII. O teste de unidade concentra-se na l\u00f3gica de processamento interno e nas estruturas de dados dentro dos limites de um componente.\nIII. O teste de integra\u00e7\u00e3o se concentra em a\u00e7\u00f5es vis\u00edveis pelo usu\u00e1rio e na sa\u00edda reconhec\u00edvel pelo usu\u00e1rio do sistema.\nIV. O teste de integra\u00e7\u00e3o \u00e9 uma t\u00e9cnica sistem\u00e1tica para a constru\u00e7\u00e3o da arquitetura de software, ao mesmo tempo em que realiza testes para descobrir erros associados \u00e0s interfaces.",
+        "options": [
+                "Somente as afirmativas I, II e IV est\u00e3o corretas.",
+                "Todas as afirmativas est\u00e3o corretas.",
+                "Somente as afirmativas I e II est\u00e3o corretas.",
+                "Somente as afirmativas I e III est\u00e3o corretas."
+        ],
+        "answer": 0
+	},
+	"testes_automatizados/q2.json":{
+        "title": "Acerca de testes de\u00a0software, julgue o item que se segue.",
+        "text": "Enquanto os testes de unidade propiciam a qualidade externa, os testes de aceita\u00e7\u00e3o ajudam o desenvolvedor a avaliar a qualidade interna do c\u00f3digo, dando feedback sobre o design dos m\u00f3dulos e permitindo a manuten\u00e7\u00e3o com menor custo.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 1
+	},
+	"testes_automatizados/q20.json":{
+        "title": "",
+        "text": "Na an\u00e1lise e projeto de sistemas, uma fase considerada muito importante \u00e9 a de testes. Diversos tipos de testes s\u00e3o executados, desde a fase inicial at\u00e9 a implanta\u00e7\u00e3o do novo sistema. Os testes t\u00eam como objetivo verificar a funcionalidade do sistema se o sistema atende ao que foi projetado. Quatro est\u00e1gios de testes s\u00e3o conhecidos e cada um tem os seus respectivos tipos de testes. Dois tipos de testes s\u00e3o: testes da caixa preta e testes da caixa branca. Assinale a alternativa que apresenta corretamente qual est\u00e1gio esses tipos de testes pertencem.",
+        "options": [
+                "Testes de Sistema.",
+                "Testes de Unidade.",
+                "Testes de Aceita\u00e7\u00e3o."
+        ],
+        "answer": 0
+	},
+	"testes_automatizados/q3.json":{
+        "title": "Acerca de testes de\u00a0software, julgue o item que se segue.",
+        "text": "No m\u00e9todo de desenvolvimento TDD (test driven development), o desenvolvedor escreve primeiro um caso de teste e, posteriormente, o c\u00f3digo.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"testes_automatizados/q4.json":{
+        "title": "Acerca de TomCat, desenvolvimento seguro de\u00a0software, refactoring\u00a0e integra\u00e7\u00e3o cont\u00ednua, julgue o pr\u00f3ximo item.",
+        "text": "Em um servi\u00e7o de integra\u00e7\u00e3o cont\u00ednua, testes de unidade s\u00e3o executados automaticamente com a finalidade de detectar erros funcionais.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"testes_automatizados/q5.json":{
+        "title": "",
+        "text": "A respeito dos processos de verifica\u00e7\u00e3o, de valida\u00e7\u00e3o e de teste de software, assinale a op\u00e7\u00e3o correta.",
+        "options": [
+                "Verifica\u00e7\u00e3o, valida\u00e7\u00e3o e teste s\u00e3o atividades independentes, de maneira que n\u00e3o possuem qualquer v\u00ednculo entre si.",
+                "Valida\u00e7\u00e3o \u00e9 uma atividade que permite realizar a verifica\u00e7\u00e3o e os testes do software.",
+                "Teste consiste em analisar-se o software constru\u00eddo para confirmar se ele atende \u00e0s verdadeiras necessidades dos interessados (cliente, usu\u00e1rio etc).",
+                "Verifica\u00e7\u00e3o consiste em analisar-se o software para confirmar se ele est\u00e1 sendo constru\u00eddo de acordo com o que foi especificado."
+        ],
+        "answer": 3
+	},
+	"testes_automatizados/q6.json":{
+        "title": "Com rela\u00e7\u00e3o ao processo de testes de software, julgue o item a seguir.",
+        "text": "Para a estimativa do esfor\u00e7o do teste, s\u00e3o adotadas duas abordagens: estimativa de horas baseada em valores t\u00edpicos; e estimativa de esfor\u00e7o baseada em especialistas.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 1
+	},
+	"testes_automatizados/q7.json":{
+        "title": "Com rela\u00e7\u00e3o ao processo de testes de\u00a0software, julgue o item a seguir.",
+        "text": "As atividades de planejamento de teste incluem programar a implementa\u00e7\u00e3o, a execu\u00e7\u00e3o e a validade dos testes e configurar o n\u00edvel de detalhe para os procedimentos de teste e reprodu\u00e7\u00e3o do incidente.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"testes_automatizados/q8.json":{
+        "title": "Com rela\u00e7\u00e3o ao processo de testes de\u00a0software, julgue o item a seguir.",
+        "text": "No teste de integra\u00e7\u00e3o, o foco \u00e9 a comunica\u00e7\u00e3o entre os m\u00f3dulos do software, n\u00e3o as suas funcionalidades; portanto, nessa fase, testes funcionais n\u00e3o podem ser utilizados.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 1
+	},
+	"testes_automatizados/q9.json":{
+        "title": "Com rela\u00e7\u00e3o ao processo de testes de\u00a0software, julgue o item a seguir.",
+        "text": "No teste funcional, que \u00e9 uma das fases do processo de valida\u00e7\u00e3o, n\u00e3o \u00e9 necess\u00e1rio o conhecimento das estruturas internas do software.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"testes_carga/q45.json":{
+        "title": "No que diz respeito \u00e0 engenharia de testes, julgue o item subsecutivo.",
+        "text": "A realiza\u00e7\u00e3o de testes de carga \u00e9 importante para os sistemas distribu\u00eddos, pois permite a identifica\u00e7\u00e3o do ponto de degrada\u00e7\u00e3o desses sistemas, o que possibilita a cria\u00e7\u00e3o de controles de rejei\u00e7\u00e3o de opera\u00e7\u00f5es a partir desse ponto.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 1
+	},
+	"testes_integracao/q41.json":{
+        "title": "No que diz respeito \u00e0 engenharia de testes, julgue o item subsecutivo.",
+        "text": "A ado\u00e7\u00e3o da estrat\u00e9gia bottom-up nos testes de integra\u00e7\u00e3o torna desnecess\u00e1ria a utiliza\u00e7\u00e3o de stubs.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"testes_integracao/q52.json":{
+        "title": "",
+        "text": "Um teste de integra\u00e7\u00e3o \u00e9 caracterizado por",
+        "options": [
+                "ficar ativo por anos ou at\u00e9 mesmo d\u00e9cadas. Durante este tempo o sistema e seu ambiente podem ser modificados, corrigidos ou complementados.",
+                "ser de responsabilidade do cliente ou do usu\u00e1rio do sistema; os interessados (stakeholders) tamb\u00e9m podem ser envolvidos.",
+                "tratar o comportamento do sistema ou produto definido pelo escopo de um projeto ou programa de desenvolvimento.",
+                "procurar defeitos e verificar o funcionamento do software (exemplo: m\u00f3dulos, programas, objetos, classes etc.) que s\u00e3o test\u00e1veis separadamente.",
+                "testar as interfaces entre os componentes ou intera\u00e7\u00f5es de diferentes partes de um sistema."
+        ],
+        "answer": 4
+	},
+	"validacao_e_verificacao/q42.json":{
+        "title": "No que diz respeito \u00e0 engenharia de testes, julgue o item subsecutivo.",
+        "text": "Os testes de aceita\u00e7\u00e3o e os de sistema podem ser planejados e executados da mesma forma, diferenciando-se apenas em rela\u00e7\u00e3o aos seus objetivos, que s\u00e3o, respectivamente, valida\u00e7\u00e3o e verifica\u00e7\u00e3o do sistema.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"validacao_e_verificacao/q54.json":{
+        "title": "",
+        "text": "Uma equipe respons\u00e1vel pela qualidade de um software deve atentar-se para um outro tipo de teste, o teste de valida\u00e7\u00e3o. Esse tipo de teste foca na vis\u00e3o do usu\u00e1rio, sendo realizado ap\u00f3s o empacotamento do produto e parte dos crit\u00e9rios de valida\u00e7\u00e3o presentes na especifica\u00e7\u00e3o dos requisitos de software do produto em desenvolvimento. Considerando o exposto, assinale a alternativa que melhor descreve o conceito de teste beta.",
+        "options": [
+                "Teste conduzido nas instala\u00e7\u00f5es dos usu\u00e1rios finais, com a presen\u00e7a do desenvolvedor, em um ambiente controlado. Os erros s\u00e3o simulados para testar estresse e recupera\u00e7\u00e3o de dados.",
+                "Teste realizado pela equipe de qualidade com supervis\u00e3o dos usu\u00e1rios finais em um ambiente n\u00e3o controlado. Os erros s\u00e3o analisados e resolvidos pela pr\u00f3pria equipe de qualidade.",
+                "Teste conduzido pelo desenvolvedor com a supervis\u00e3o dos usu\u00e1rios finais em um ambiente controlado. Os erros s\u00e3o registrados pelos usu\u00e1rios e reportados posteriormente.",
+                "Teste conduzido nas instala\u00e7\u00f5es do desenvolvedor com os usu\u00e1rios finais em ambiente controlado. Os desenvolvedores registram os erros e problemas encontrados.",
+                "Teste conduzido nas instala\u00e7\u00f5es dos usu\u00e1rios finais, sem a presen\u00e7a do desenvolvedor, em um ambiente n\u00e3o controlado. Os erros, reais ou n\u00e3o, s\u00e3o entregues aos desenvolvedores, de forma parcial e n\u00e3o linear."
+        ],
+        "answer": 4
+	},
+	"validacao_e_verificacao/q55.json":{
+        "title": "",
+        "text": "Sobre os conceitos de valida\u00e7\u00e3o e verifica\u00e7\u00e3o de software, assinale a afirmativa correta.",
+        "options": [
+                "A verifica\u00e7\u00e3o tem por objetivo investigar se o software atende os requisitos do usu\u00e1rio, ou seja, se est\u00e1 sendo constru\u00eddo o produto correto.",
+                "Valida\u00e7\u00e3o e/ou verifica\u00e7\u00e3o s\u00e3o sin\u00f4nimos que denotam o uso de t\u00e9cnicas para verificar se o software est\u00e1 sendo constru\u00eddo de forma correta, ou seja, se o software est\u00e1 de acordo com a especifica\u00e7\u00e3o.",
+                "A valida\u00e7\u00e3o tem por objetivo investigar se o software atende os requisitos do usu\u00e1rio, ou seja, se est\u00e1 sendo constru\u00eddo o produto correto.",
+                "Valida\u00e7\u00e3o e/ou verifica\u00e7\u00e3o s\u00e3o testes de software realizados pelo SQA (Software Quality Assurance)."
+        ],
+        "answer": 2
+	}
+}

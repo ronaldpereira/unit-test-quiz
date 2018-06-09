@@ -10,6 +10,27 @@
 			{
 				"name":"Classe de equivalência e comportamento",
 				"questionsFilePath":"questions/classes_eq_comport"
+			},
+			{
+				"name":"Conceitos gerais",
+				"questionsFilePath":"questions/conceitos_gerais"
+			}
+		]
+	},
+	{
+		"name":"Outros testes",
+		"activities":[
+			{
+				"name":"Testes de integração",
+				"questionsFilePath":"questions/testes_integracao"
+			},
+			{
+				"name":"Testes de carga",
+				"questionsFilePath":"questions/testes_carga"
+			},
+			{
+				"name":"Testes de validação e verificação",
+				"questionsFilePath":"questions/validacao_e_verificacao"
 			}
 		]
 	}

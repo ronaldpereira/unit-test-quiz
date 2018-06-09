@@ -1,0 +1,1 @@
+{"title": "No que diz respeito à engenharia de testes, julgue o item subsecutivo.", "text" : "A medida de complexidade ciclomática é obtida pela contagem de estruturas de seleção e repetição ou pela contagem do número de regiões do grafo de fluxo, tendo a segunda técnica menor precisão que a primeira.", "options": ["Certo","Errado"], "answer": 1}
