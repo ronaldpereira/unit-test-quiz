@@ -35,12 +35,16 @@ public class QuestionsActivity extends AppCompatActivity {
     private int tipPosition;
     private int playerAnswerPosition;
 
+    private int playerPoints;
+
     private Handler handler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_questions);
+
+        playerPoints = 0;
 
         handler = new Handler();
 
@@ -52,6 +56,24 @@ public class QuestionsActivity extends AppCompatActivity {
 
         imageButtonTip = (ImageButton) findViewById(R.id.imageButtonTip);
         imageButtonTip.setOnClickListener(imageButtonTipOnClickListener);
+
+        listViewOptions.addOnLayoutChangeListener(new View.OnLayoutChangeListener() {
+            @Override
+            public void onLayoutChange(View v, int left, int top, int right, int bottom, int oldLeft, int oldTop, int oldRight, int oldBottom) {
+                if (showingAnswer) {
+                    playerPoints++;
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            showRandomQuestion();
+                        }
+                    }, 1000);
+
+                    TextView textView = (TextView) findViewById(R.id.playerPoints);
+                    textView.setText(Integer.toString(playerPoints));
+                }
+            }
+        });
 
         listViewOptions.setOnItemClickListener(listViewOptionsOnItemClickListener);
         showRandomQuestion();
@@ -92,13 +114,6 @@ public class QuestionsActivity extends AppCompatActivity {
                             if (position == question.getAnswer()){
                                 v.setBackgroundColor(Color.GREEN);
                             }
-
-                            handler.postDelayed(new Runnable() {
-                                @Override
-                                public void run() {
-                                    showRandomQuestion();
-                                }
-                            }, 1000);
 
                         }
                         if (showingTip && position == tipPosition){
