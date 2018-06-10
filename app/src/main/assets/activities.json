@@ -4,16 +4,12 @@
 		"activities":
 		[
 			{
-				"name":"Testes automatizados",
-				"questionsFilePath":"questions/testes_automatizados"
-			},
-			{
 				"name":"Classe de equivalência e comportamento",
-				"questionsFilePath":"questions/classes_eq_comport"
+				"questionsFilePath":"questions/conceitos_basicos/classes_eq_comport"
 			},
 			{
 				"name":"Conceitos gerais",
-				"questionsFilePath":"questions/conceitos_gerais"
+				"questionsFilePath":"questions/conceitos_basicos/conceitos_gerais"
 			}
 		]
 	},
@@ -21,16 +17,40 @@
 		"name":"Outros testes",
 		"activities":[
 			{
+				"name":"Testes automatizados",
+				"questionsFilePath":"questions/outros_testes/teste_automatizado"
+			},
+			{
 				"name":"Testes de integração",
-				"questionsFilePath":"questions/testes_integracao"
+				"questionsFilePath":"questions/outros_testes/teste_integracao"
 			},
 			{
 				"name":"Testes de carga",
-				"questionsFilePath":"questions/testes_carga"
+				"questionsFilePath":"questions/outros_testes/teste_carga"
 			},
 			{
 				"name":"Testes de validação e verificação",
-				"questionsFilePath":"questions/validacao_e_verificacao"
+				"questionsFilePath":"questions/outros_testes/teste_validacao_e_verificacao"
+			},
+			{
+				"name":"Teste de caixa preta e caixa branca",
+				"questionsFilePath":"questions/outros_testes/teste_caixa_preta_branca"
+			},
+			{
+				"name":"Teste alfa e beta",
+				"questionsFilePath":"questions/outros_testes/teste_alfa_beta"
+			},
+			{
+				"name":"Teste funcional",
+				"questionsFilePath":"questions/outros_testes/teste_funcional"
+			},
+			{
+				"name":"Teste de caminho básico",
+				"questionsFilePath":"questions/outros_testes/teste_caminho_basico"
+			},
+			{
+				"name":"Teste de regressão",
+				"questionsFilePath":"questions/outros_testes/teste_regressao"
 			}
 		]
 	}

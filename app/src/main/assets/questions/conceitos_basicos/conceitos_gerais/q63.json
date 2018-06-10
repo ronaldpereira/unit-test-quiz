@@ -1,0 +1,1 @@
+{"title": "","text": "Você foi escolhido para implementar os casos de teste para um formulário. Um dos campos desse formulário recebe datas de nascimento entre 1900 e 2004. Quais são os valores limite para testar esse campo?","options": ["1899, 2005","0,1900,2004,2005","1899, 1900, 1901,2003,2004,2005","1900, 2004","1899,1900,2004,2005"],"answer": 2}
