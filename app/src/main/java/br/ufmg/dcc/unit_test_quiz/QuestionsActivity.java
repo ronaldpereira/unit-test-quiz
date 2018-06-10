@@ -16,8 +16,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.Random;
+
+import android.os.Handler;
 
 import dcc.ufmg.br.quizdetestesunidade.R;
 
@@ -34,12 +35,16 @@ public class QuestionsActivity extends AppCompatActivity {
     private int tipPosition;
     private int playerAnswerPosition;
 
+    private Handler handler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_questions);
 
-        questionFilePath = getIntent().getStringExtra(ModulesActivity.QUESTIONS_FILE_PATH);;
+        handler = new Handler();
+
+        questionFilePath = getIntent().getStringExtra(ModulesActivity.QUESTIONS_FILE_PATH);
         textViewText = (TextView) findViewById(R.id.textViewText);
         listViewOptions = (ListView) findViewById(R.id.listViewOptions);
         imageButtonRefresh = (ImageButton) findViewById(R.id.imageButtonRefresh);
@@ -75,22 +80,33 @@ public class QuestionsActivity extends AppCompatActivity {
             question = new Question(inputStream);
             textViewText.setText(String.format("%s\n%s", question.getTitle(), question.getText()));
             listViewOptions.setAdapter(
-                    new ArrayAdapter<String>(QuestionsActivity.this, android.R.layout.simple_list_item_1, question.getOptions()){
-                        @NonNull
-                        @Override
-                        public View getView(int position, View convertView, ViewGroup parent) {
-                            View v = super.getView(position, convertView, parent);
-                            if (showingAnswer) {
-                                if (position == playerAnswerPosition)
-                                    v.setBackgroundColor(Color.RED);
-                                if (position == question.getAnswer())
-                                    v.setBackgroundColor(Color.GREEN);
-                            }
-                            if (showingTip && position == tipPosition)
+                new ArrayAdapter<String>(QuestionsActivity.this, android.R.layout.simple_list_item_1, question.getOptions()){
+                    @NonNull
+                    @Override
+                    public View getView(int position, View convertView, ViewGroup parent) {
+                        View v = super.getView(position, convertView, parent);
+                        if (showingAnswer) {
+                            if (position == playerAnswerPosition){
                                 v.setBackgroundColor(Color.RED);
-                            return v;
+                            }
+                            if (position == question.getAnswer()){
+                                v.setBackgroundColor(Color.GREEN);
+                            }
+
+                            handler.postDelayed(new Runnable() {
+                                @Override
+                                public void run() {
+                                    showRandomQuestion();
+                                }
+                            }, 1000);
+
                         }
+                        if (showingTip && position == tipPosition){
+                            v.setBackgroundColor(Color.RED);
+                        }
+                        return v;
                     }
+                }
             );
         }
         catch (Exception ex) {
