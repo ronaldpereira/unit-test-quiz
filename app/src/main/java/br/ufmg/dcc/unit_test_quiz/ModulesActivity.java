@@ -1,31 +1,24 @@
 package br.ufmg.dcc.unit_test_quiz;
 
-import android.content.ClipData;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.os.Bundle;
-import android.renderscript.ScriptGroup;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
-
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-
+import dcc.ufmg.br.quizdetestesunidade.R;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import dcc.ufmg.br.quizdetestesunidade.R;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -34,12 +27,12 @@ import java.util.List;
 import java.util.Objects;
 
 public class ModulesActivity extends AppCompatActivity {
-
     public enum ItemType {
         MODULE, ACTIVITY
     }
 
     public static final String QUESTIONS_FILE_PATH="questionsFilePath";
+    public static final String QUESTIONS_ACTIVITY ="questionsActivity";
 
     public static class ListItem {
         public ItemType type;
@@ -167,8 +160,10 @@ public class ModulesActivity extends AppCompatActivity {
                 new AdapterView.OnItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                        Intent intent = new Intent(ModulesActivity.this, QuestionsActivity.class);
-                        intent.putExtra(QUESTIONS_FILE_PATH, items.get(position).questionsFilePath);
+                        Intent intent = new Intent(ModulesActivity.this, NewQuestionsActivity.class);
+                        ListItem item = items.get(position);
+                        intent.putExtra(QUESTIONS_FILE_PATH, item.questionsFilePath);
+                        intent.putExtra(QUESTIONS_ACTIVITY, item.text);
                         startActivity(intent);
                     }
                 }

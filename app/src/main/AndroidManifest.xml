@@ -8,9 +8,12 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="br.ufmg.dcc.unit_test_quiz.QuestionsActivity">
-        </activity>
         <activity
+            android:screenOrientation="portrait"
+            android:name="br.ufmg.dcc.unit_test_quiz.QuestionsActivity"
+            />
+        <activity
+            android:screenOrientation="portrait"
             android:name="br.ufmg.dcc.unit_test_quiz.ModulesActivity"
             android:label="@string/title_activity_modules"
             android:theme="@style/AppTheme.NoActionBar">
@@ -20,6 +23,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="br.ufmg.dcc.unit_test_quiz.NewQuestionsActivity"
+            android:label="@string/title_activity_new_questions"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
