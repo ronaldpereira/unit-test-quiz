@@ -1,0 +1,12 @@
+{
+	"title":,
+	"text": "(TRE-RS/2015) Projeto para o desenvolvimento de software que utilize TDD deve:",
+	"options": [
+		"realizar sprints a cada quinzena",
+		"desenvolver pequenos releases",
+		"apresentar grande quantidade de testes de unidade de código-fonte previamente desenvolvidos",
+		"apresentar linguagem de programação estruturada",
+		"recomendar a preparação dos testes para que, posteriormente, seja desenvolvido o código"
+	],
+	"answer": 4
+}
