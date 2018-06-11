@@ -4,10 +4,6 @@
 		"activities":
 		[
 			{
-				"name":"Classe de equivalência e comportamento",
-				"questionsFilePath":"questions/conceitos_basicos/classes_eq_comport"
-			},
-			{
 				"name":"Conceitos gerais",
 				"questionsFilePath":"questions/conceitos_basicos/conceitos_gerais"
 			}
@@ -58,7 +54,7 @@
 		"name":"Motivação",
 		"activities":[
 			{
-				"name":"Achar o Teste",
+				"name":"Achar o teste",
 				"questionsFilePath":"questions/motivacao/achar_o_teste"
 			},
 			{
@@ -70,7 +66,7 @@
 				"questionsFilePath":"questions/motivacao/fixacao"
 			},
 			{
-				"name":"Desenvolvimento Dirigido ao Teste",
+				"name":"Desenvolvimento dirigido por testes",
 				"questionsFilePath":"questions/motivacao/tdd"
 			},
 			{

@@ -4,7 +4,7 @@
   "options": ["Teste de sistema.",
     "Desenvolvimento dirigido a testes (TDD).",
     "Teste de release.",
-    "Teste unitário.",
+    "Teste de unidade.",
     "Teste de aceitação."],
   "answer": 3
 }

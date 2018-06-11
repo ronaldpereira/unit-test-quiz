@@ -1,6 +1,6 @@
 {
   "title": "",
-  "text": "Em programação, para verificar se o código fonte está funcionando conforme o esperado utiliza-se testes unitários. Uma forma muito comum de escrevê-los é a aplicação do padrão AAA, que define 3 etapas: Arrange, Act e Assert. Com relação aos testes unitários escritos no padrão AAA, é correto afirmar que:",
+  "text": "Em programação, para verificar se o código fonte está funcionando conforme o esperado utiliza-se testes de unidade. Uma forma muito comum de escrevê-los é a aplicação do padrão AAA, que define 3 etapas: Arrange, Act e Assert. Com relação aos testes de unidade escritos no padrão AAA, é correto afirmar que:",
   "options": ["na etapa de Arrange o método sendo testado é invocado com os parâmetros organizados.",
     "o padrão separa o que está sendo testado da configuração de testes e da verificação de resultados esperados.",
     "na etapa de Act é verificado se a ação do método em teste se comporta conforme o esperado.",
