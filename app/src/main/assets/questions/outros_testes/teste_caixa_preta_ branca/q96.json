@@ -1,0 +1,11 @@
+{
+  "title": "",
+  "text": "(SP-URBANISMO/2014) Dentre as técnicas de teste de software, há os testes denominados de caixa preta e aqueles denominados de caixa branca. Testes do tipo caixa",
+  "options": [
+  	"preta visam exercitar as interfaces do software sob teste.",
+  	"preta e branca visam detectar os mesmos tipos de erros existentes no software sob teste.",
+  	"preta não são aplicáveis a software de pequeno porte.",
+  	"branca também são chamados de testes comportamentais.",
+  	"branca são realizados apenas após o software estar completamente integrado."],
+  "answer": 0
+}

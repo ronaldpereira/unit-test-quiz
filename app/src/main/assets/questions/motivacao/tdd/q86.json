@@ -1,0 +1,12 @@
+{
+	"title": "",
+	"text": "(TRE-PI/2016) O TDD (test driven development):",
+	"options": [
+		"apresenta como vantagem a leitura das regras de negócio a partir dos testes, e, como desvantagem, a necessidade de mais linhas de códigos que a abordagem tradicional, o que gera um código adicional",
+		"impede que seja aplicada a prática de programação em pares, que é substituída pela interação entre analista de teste, testador e programador",
+		"é um conjunto de técnicas associadas ao eXtremme Programing (XP) e a métodos ágeis, sendo, contudo, incompatível com o Refactoring, haja vista o teste ser escrito antes da codificação",
+		"refere-se a uma técnica de programação cujo principal objetivo é escrever um código funcional limpo, a partir de um teste que tenha falhado",
+		"refere-se a uma metodologia de testes em que se devem testar condições, loops e operações; no entanto, por questão de simplicidade, não devem ser testados polimorfismos"
+	],
+	"answer": 3
+}
