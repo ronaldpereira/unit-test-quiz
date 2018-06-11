@@ -14,6 +14,14 @@ import org.junit.runner.RunWith;
 
 import dcc.ufmg.br.quizdetestesunidade.R;
 
+import static android.support.test.espresso.Espresso.onView;
+import static android.support.test.espresso.action.ViewActions.click;
+import static android.support.test.espresso.action.ViewActions.closeSoftKeyboard;
+import static android.support.test.espresso.action.ViewActions.typeText;
+import static android.support.test.espresso.assertion.ViewAssertions.matches;
+import static android.support.test.espresso.matcher.ViewMatchers.withId;
+import static android.support.test.espresso.matcher.ViewMatchers.withText;
+
 import static android.support.test.InstrumentationRegistry.getInstrumentation;
 import static org.junit.Assert.*;
 
@@ -26,8 +34,8 @@ import static org.junit.Assert.*;
 public class QuestionsActivityTest {
 
     @Rule
-    public final ActivityTestRule<QuestionsActivity> rule =
-            new ActivityTestRule<>(QuestionsActivity.class, true, false);
+    public final ActivityTestRule<QuestionsActivity> questionsActivityRule =
+            new ActivityTestRule<>(QuestionsActivity.class);
 
     @Test
     public void useAppContext() {
@@ -40,23 +48,27 @@ public class QuestionsActivityTest {
     @Test
     public void checkViewIds() {
 
-        Context context = getInstrumentation().getTargetContext();
-        context.setTheme(R.style.Theme_AppCompat);
-        QuestionsActivity questionsActivity = rule.launchActivity(null);
-        getInstrumentation().waitForIdleSync();
+       QuestionsActivity questionsActivity = questionsActivityRule.getActivity();
 
-        TextView textViewText = (TextView) questionsActivity.findViewById(R.id.textViewText);
-        assertNotEquals(textViewText, null);
+       TextView textViewText = (TextView) questionsActivity.findViewById(R.id.textViewText);
+       assertNotEquals(textViewText, null);
 
-        ListView listViewOptions = (ListView) questionsActivity.findViewById(R.id.listViewOptions);
-        assertNotEquals(listViewOptions, null);
+       ListView listViewOptions = (ListView) questionsActivity.findViewById(R.id.listViewOptions);
+       assertNotEquals(listViewOptions, null);
 
-        ImageButton imageButtonRefresh = (ImageButton) questionsActivity.findViewById(R.id.imageButtonRefresh);
-        assertNotEquals(imageButtonRefresh, null);
+       ImageButton imageButtonRefresh = (ImageButton) questionsActivity.findViewById(R.id.imageButtonRefresh);
+       assertNotEquals(imageButtonRefresh, null);
 
-        ImageButton imageButtonTip = (ImageButton) questionsActivity.findViewById(R.id.imageButtonTip);
-        assertNotEquals(imageButtonTip, null);
+       ImageButton imageButtonTip = (ImageButton) questionsActivity.findViewById(R.id.imageButtonTip);
+       assertNotEquals(imageButtonTip, null);
 
-        questionsActivity.finish();
+       TextView playerPoints = (TextView) questionsActivity.findViewById(R.id.playerPoints);
+       assertNotEquals(playerPoints, null);
     }
+
+    @Test
+    public void checkViewPlayerPointsInitialization() {
+        onView(withId(R.id.playerPoints)).check(matches(withText("0")));
+    }
+
 }
