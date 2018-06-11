@@ -6,6 +6,26 @@
 			{
 				"name":"Conceitos gerais",
 				"questionsFilePath":"questions/conceitos_basicos/conceitos_gerais"
+			},
+			{
+				"name":"Achar o teste",
+				"questionsFilePath":"questions/motivacao/achar_o_teste"
+			},
+			{
+				"name":"Cenários",
+				"questionsFilePath":"questions/motivacao/cenarios"
+			},
+			{
+				"name":"Fixação",
+				"questionsFilePath":"questions/motivacao/fixacao"
+			},
+			{
+				"name":"Desenvolvimento dirigido por testes",
+				"questionsFilePath":"questions/motivacao/tdd"
+			},
+			{
+				"name":"Testes no Desenvolvimento",
+				"questionsFilePath":"questions/motivacao/testes_no_desenvolvimento"
 			}
 		]
 	},
@@ -47,31 +67,6 @@
 			{
 				"name":"Teste de regressão",
 				"questionsFilePath":"questions/outros_testes/teste_regressao"
-			}
-		]
-	},
-	{
-		"name":"Motivação",
-		"activities":[
-			{
-				"name":"Achar o teste",
-				"questionsFilePath":"questions/motivacao/achar_o_teste"
-			},
-			{
-				"name":"Cenários",
-				"questionsFilePath":"questions/motivacao/cenarios"
-			},
-			{
-				"name":"Fixação",
-				"questionsFilePath":"questions/motivacao/fixacao"
-			},
-			{
-				"name":"Desenvolvimento dirigido por testes",
-				"questionsFilePath":"questions/motivacao/tdd"
-			},
-			{
-				"name":"Testes no Desenvolvimento",
-				"questionsFilePath":"questions/motivacao/testes_no_desenvolvimento"
 			}
 		]
 	}
