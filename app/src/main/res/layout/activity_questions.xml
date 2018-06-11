@@ -24,7 +24,7 @@
             android:orientation="vertical" >
 
             <TextView
-                android:text="Texto Pergunta X AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                android:text="Question Text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/textViewText" />
@@ -37,6 +37,17 @@
         android:layout_height="wrap_content"
         android:id="@+id/listViewOptions"
         android:layout_above="@+id/imageButtonRefresh"/>
+
+    <TextView
+        android:id="@+id/playerPoints"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginStart="12dp"
+        android:text="0"
+        android:textSize="20sp" />
 
     <ImageButton
         android:layout_width="wrap_content"
