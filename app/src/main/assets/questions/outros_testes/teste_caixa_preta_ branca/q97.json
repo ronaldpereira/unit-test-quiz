@@ -1,0 +1,8 @@
+{
+  "title": "",
+  "text": "(ABIN/2010) Nos testes de caixa branca, o código-fonte do programa é usado para identificar testes de defeitos potenciais, particularmente no processo de validação, o qual demonstra se um programa atende a sua especificação.",
+  "options": [
+  	"Certo",
+  	"Errado"],
+  "answer": 1
+}

@@ -1,0 +1,11 @@
+{
+  "title": "",
+  "text": "(CMB/2012) São técnicas de teste de software classificadas como Teste Caixa-Branca, EXCETO o teste de",
+  "options": [
+  	"Ciclo",
+  	"Condição",
+  	"Fluxo de Dados",
+  	"Matriz Ortogonal",
+  	"Caminhos Lógicos"],
+  "answer": 3
+}

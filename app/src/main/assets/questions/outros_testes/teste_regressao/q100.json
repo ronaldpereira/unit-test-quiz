@@ -1,0 +1,11 @@
+{
+  "title": "",
+  "text": "(SEFAZ-PI/2015) O teste é fundamental quando se deseja atingir uma qualidade mínima no desenvolvimento de um software. Dentre os tipos de testes existentes, o Teste de Regressão é aquele que",
+  "options": [
+  	"tem como foco as menores unidades codificadas do software. ",
+  	"é usado para validar se a implementação está de acordo com  a especificação.",
+  	"verifica se as alterações/inclusões de código estão corretas e não afetam o que já estava funcionando.",
+  	"testa os conhecidos requisitos não-funcionais.",
+  	"analisa se as partes, quando colocadas para trabalhar juntas, não conduzem a erros."],
+  "answer": 2
+}
