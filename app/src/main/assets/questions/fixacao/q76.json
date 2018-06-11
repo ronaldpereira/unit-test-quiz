@@ -1,0 +1,7 @@
+{
+  "title": "No que concerne a testes de software, julgue o item que se segue.",
+  "text": "Testes de integração buscam assegurar que o sistema opere com a carga necessária, pois, ao aumentá-la progressivamente, pode-se avaliar se as interações entre componentes são satisfatórias.",
+  "options": ["Certo",
+    "Errado"],
+  "answer": 1
+}

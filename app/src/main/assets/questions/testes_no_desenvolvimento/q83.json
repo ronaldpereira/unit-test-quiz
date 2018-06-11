@@ -1,0 +1,10 @@
+{
+  "title": "Considere os itens abaixo.",
+  "text": "I - Depuração simplificada: quando um teste falha, a localização do problema deve ser óbvia.\nII - Diminuição da necessidade de cobertura de código: nem todo segmento de código que é escrito deve ter um teste associado.\nIII - Documentação do sistema: os testes agem como uma forma de documentação, descrevendo o que o código deve estar fazendo.\nQuais são benefícios do uso do Desenvolvimento Dirigido por Testes (TDD)? ",
+  "options": ["Apenas II.",
+    "Apenas I e II.",
+    "Apenas I e III.",
+    "Apenas II e III.",
+    "I, II e III."],
+  "answer": 2
+}

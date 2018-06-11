@@ -1,0 +1,10 @@
+{
+  "title": "",
+  "text": "Segundo Pressman (2011), Teste é um conjunto de atividades que podem ser planejadas com antecedência e executadas sistematicamente. Como se denomina o aspecto da estratégia de Teste de software referente ao conjunto de tarefas que garantem que o software implementa corretamente uma função específica, considerando ser, neste momento, menos importante os requisitos do cliente?",
+  "options": ["Comprovação.",
+    "Validação.",
+    "Convalidação.",
+    "Revalidação.",
+    "Verificação."],
+  "answer": 4
+}

@@ -1,0 +1,9 @@
+{
+  "title": "",
+  "text": "O desenvolvimento dirigido a testes (TDD, do Inglês Test-Driven Development) é uma abordagem de desenvolvimento de software na qual se intercalam testes e desenvolvimento de código. Uma das caracterís­ ticas da abordagem TDD é",
+  "options": ["a sua utilidade no desenvolvimento de softwares novos.",
+    "o maior custo associado aos testes de regressão.",
+    "a redução da importância da automatização dos testes.",
+    "a sua adequação a processos de software sequenciais."],
+  "answer": 0
+}

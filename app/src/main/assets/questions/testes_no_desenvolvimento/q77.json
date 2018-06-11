@@ -1,0 +1,10 @@
+{
+  "title": "",
+  "text": "Para verificar se um software está sendo desenvolvido não apenas conforme as especificações e requisitos estabelecidos, mas também para revelar falhas, erros ou defeitos e suas causas, realizam-se testes de software. Existe uma gama variada de teste de acordo com os objetivos e escopo. O teste que tem por objetivo explorar a menor unidade do projeto, procurando identificar falhas ocasionadas por defeitos de lógica e de implementação em cada módulo, separadamente, é denominado de",
+  "options": ["teste de unidade.",
+    "teste de desempenho.",
+    "teste de integração.",
+    "teste de sistema.",
+    "teste de aceitação."],
+  "answer": 0
+}

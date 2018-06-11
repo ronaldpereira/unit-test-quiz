@@ -1,0 +1,10 @@
+{
+  "title": "",
+  "text": "Cada vez que um novo módulo é adicionado como parte do teste de integração, o software se modifica. Novos caminhos de fluxo de dados são estabelecidos, nova lógica de controle é acionada. Para garantir que este tipo de alteração não ocasione algum efeito colateral indesejável no sistema já desenvolvido, devem ser executados testes de: ",
+  "options": ["Regressão.",
+    "Fumaça.",
+    "Estresse.",
+    "Segurança.",
+    "Caso de uso."],
+  "answer": 0
+}

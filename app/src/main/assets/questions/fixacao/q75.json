@@ -1,0 +1,7 @@
+{
+  "title": "No que concerne a testes de software, julgue o item que se segue.",
+  "text": "Na aplicação de versões mais recentes do software, caso seja verificada a ocorrência de novos defeitos em componentes já analisados, os testes de unidade rejeitarão o software, interpretando ter havido violação das assinaturas de entrada e saída.",
+  "options": ["Certo",
+    "Errado"],
+  "answer": 1
+}

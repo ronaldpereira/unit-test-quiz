@@ -1,0 +1,10 @@
+{
+  "title": "",
+  "text": "O sistema que controla as reservas dos clientes de uma rede hoteleira funciona apenas na Web. Entretanto, há uma demanda crescente para que a empresa disponibilize um aplicativo para smartphones. Para oferecer um aplicativo no menor prazo possível, a gerência de TI estabeleceu duas exigências: a primeira é que o novo sistema deve reutilizar ao máximo os módulos atualmente empregados, e a segunda é que a equipe de desenvolvimento deve garantir que as modificações a serem feitas não introduzirão defeitos inexistentes no sistema atual, além de continuar a atender a todos os requisitos anteriormente definidos.\nO tipo de teste que deve ser empregado para que a equipe de desenvolvimento atenda à segunda exigência é denominado teste de",
+  "options": ["estresse",
+    "volume",
+    "usabilidade",
+    "regressão",
+    "configuração"],
+  "answer": 3
+}

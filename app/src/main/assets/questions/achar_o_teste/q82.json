@@ -1,0 +1,10 @@
+{
+  "title": "",
+  "text": "Como se chama o processo que testa individualmente os componentes de programa, como métodos ou classes de objetos?",
+  "options": ["Teste de sistema.",
+    "Desenvolvimento dirigido a testes (TDD).",
+    "Teste de release.",
+    "Teste unitário.",
+    "Teste de aceitação."],
+  "answer": 3
+}

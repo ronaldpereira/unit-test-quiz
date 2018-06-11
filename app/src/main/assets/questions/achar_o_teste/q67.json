@@ -1,0 +1,10 @@
+{
+  "title": "",
+  "text": "No ciclo de desenvolvimento de sistemas, os testes são de suma importância e podem, dependendo do porte do sistema, ser bastante complexos, exigindo que seu planejamento e realização sejam divididos em fases. Em uma dessas fases, os testes são realizados por um grupo restrito de usuários finais do sistema, que simulam operações de rotina do sistema, de modo a verificar se seu comportamento está de acordo com o solicitado.",
+  "options": ["integração.",
+    "unidade.",
+    "sistema.",
+    "operação.",
+    "aceitação."],
+  "answer": 4
+}

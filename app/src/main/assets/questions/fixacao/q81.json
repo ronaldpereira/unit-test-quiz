@@ -1,0 +1,9 @@
+{
+  "title": "Dadas as seguintes afirmações: ",
+  "text": "A. Teste de software é considerado uma técnica dinâmica de verificação e validação de software\nB. Teste é um processo de execução de um software com a finalidade de provar a corretude de um software.\nC. O teste de estresse deve ser feito com o objetivo de avaliar os efeitos da submissão do sistema a situações com alta demanda por recursos.\nIndique a opção que tem apenas afirmações CORRETAS:",
+  "options": ["A, B e C",
+    "A e B",
+    "B e C",
+    "A e C"],
+  "answer": 3
+}

@@ -1,0 +1,7 @@
+{
+  "title": "No que se refere à engenharia de software, julgue o próximo item.",
+  "text": "Sistemas com baixo nível de cobertura de planejamento de testes produzem um baixo nível de cobertura de execução de testes.",
+  "options": ["Certo",
+    "Falso"],
+  "answer": 1
+}

@@ -1,0 +1,10 @@
+{
+  "title": "",
+  "text": "Os testes de software podem ser aplicados no ciclo de desenvolvimento de software através de vários níveis que vão desde o mais elementar até o mais geral. Na etapa de planejamento de testes, inicialmente, a partir do documento de requisitos, é planejado o teste de",
+  "options": ["unidade.",
+    "integração.",
+    "aceitação.",
+    "sistema.",
+    "regressão."],
+  "answer": 2
+}

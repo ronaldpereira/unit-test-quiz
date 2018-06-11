@@ -1,0 +1,10 @@
+{
+  "title": "",
+  "text": "Trata-se  de  um  teste  que  desconhece  o  conteúdo  do  código fonte.  Nesse  teste  o  componente  testado  é  tratado  como  uma caixa  preta:   são  fornecidos  dados  de  entrada   e  o  resultado comparado com aquele esperado e previamente conhecido. Além disso,  esse  teste  pode  ser  aplicado  em  diversas  fases  de  teste.  A questão retrata características do teste:",
+  "options": ["funcional.",
+    "de integração.",
+    "de desempenho.",
+    "de carga.",
+    "unitário."],
+  "answer": 0
+}

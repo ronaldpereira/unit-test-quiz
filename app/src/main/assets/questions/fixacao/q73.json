@@ -1,0 +1,10 @@
+{
+  "title": "",
+  "text": "Dadas as afirmativas relacionadas à Teste de Software,\nI. Testes de software são divididos em diversos tipos, tais como testes de unidade, de integração, de sistema, de validação e de robustez.\nII. Nos testes caixa branca, também conhecidos por testes baseados em implementação, o projetista de testes analisa também a estrutura interna da aplicação, como o código implementado ou a tecnologia utilizada.\nIII. Testes baseados na especificação são chamados também de testes caixa preta, nos quais o projetista de testes não precisa saber os detalhes de implementação do sistema.\nverifica-se que está(ão) correta(s)",
+  "options": ["I, apenas.",
+    "II, apenas.",
+    "I e III, apenas.",
+    "II e III, apenas.",
+    "I, II e III."],
+  "answer": 4
+}

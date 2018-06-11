@@ -1,0 +1,10 @@
+{
+  "title": "",
+  "text": "Um Analista de Sistemas da PRODATER realizou testes diretamente sobre o código fonte de um componente de software para avaliar o seu comportamento interno usando testes de condição, de fluxo de dados, de ciclos e de caminhos lógicos. O Analista aplicou técnica de teste de ",
+  "options": ["caixa preta.",
+    "caixa branca.",
+    "sistema.",
+    "integração",
+    "aceitação."],
+  "answer": 1
+}
