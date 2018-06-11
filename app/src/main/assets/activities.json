@@ -53,5 +53,30 @@
 				"questionsFilePath":"questions/outros_testes/teste_regressao"
 			}
 		]
+	},
+	{
+		"name":"Motivação",
+		"activities":[
+			{
+				"name":"Achar o Teste",
+				"questionsFilePath":"questions/motivacao/achar_o_teste"
+			},
+			{
+				"name":"Cenários",
+				"questionsFilePath":"questions/motivacao/cenarios"
+			},
+			{
+				"name":"Fixação",
+				"questionsFilePath":"questions/motivacao/fixacao"
+			},
+			{
+				"name":"Desenvolvimento Dirigido ao Teste",
+				"questionsFilePath":"questions/motivacao/tdd"
+			},
+			{
+				"name":"Testes no Desenvolvimento",
+				"questionsFilePath":"questions/motivacao/testes_no_desenvolvimento"
+			}
+		]
 	}
 ]
