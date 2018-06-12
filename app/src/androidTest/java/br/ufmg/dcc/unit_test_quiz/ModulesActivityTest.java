@@ -9,6 +9,12 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import dcc.ufmg.br.quizdetestesunidade.R;
+
+import static android.support.test.espresso.Espresso.onView;
+import static android.support.test.espresso.assertion.ViewAssertions.matches;
+import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static org.junit.Assert.*;
 
 /**
@@ -17,11 +23,11 @@ import static org.junit.Assert.*;
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
 @RunWith(AndroidJUnit4.class)
-public class QuestionsActivityTest {
+public class ModulesActivityTest {
 
     @Rule
-    public final ActivityTestRule<QuestionsActivity> questionsActivityRule =
-            new ActivityTestRule<>(QuestionsActivity.class);
+    public final ActivityTestRule<ModulesActivity> modulesActivityRule =
+            new ActivityTestRule<>(ModulesActivity.class);
 
     @Test
     public void useAppContext() {
@@ -29,6 +35,16 @@ public class QuestionsActivityTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("br.ufmg.dcc.unit_test_quiz", appContext.getPackageName());
+    }
+
+    @Test
+    public void checkToolbarDisplayed() {
+        onView(withId(R.id.toolbar)).check(matches(isDisplayed()));
+    }
+
+    @Test
+    public void checkActivitiesListView() {
+        onView(withId(R.id.activities_list_view)).check(matches(isDisplayed()));
     }
 
 }
