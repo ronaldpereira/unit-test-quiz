@@ -33,6 +33,9 @@ public class QuestionsActivity extends AppCompatActivity {
     private ArrayList<Integer> answers;
     private ArrayList<Integer> hints;
 
+    public static final String CORRECT_QUESTIONS = "correct";
+    public static final String ANSWERED_QUESTIONS = "answered";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -84,6 +87,7 @@ public class QuestionsActivity extends AppCompatActivity {
 
                 cancel.set(true);
                 cancel = new AtomicBoolean();
+                finishModule();
             }
         });
 
@@ -96,6 +100,7 @@ public class QuestionsActivity extends AppCompatActivity {
 
                 cancel.set(true);
                 cancel = new AtomicBoolean();
+                finishModule();
             }
         });
 
@@ -231,6 +236,25 @@ public class QuestionsActivity extends AppCompatActivity {
                 break;
             }
         }
+        finishModule();
+    }
+
+    private void finishModule(){
+        int correct = 0;
+        int answered = 0;
+
+        for (int i = 0; i < questions.size(); i++) {
+            if (answers.get(i) != -1) {
+                if (answers.get(i) == questions.get(i).getAnswer()) correct++;
+                answered++;
+            }
+        }
+        if (answered != questions.size()) return;
+        Intent intent = new Intent(QuestionsActivity.this, FinishingModule.class);
+        intent.putExtra(CORRECT_QUESTIONS, correct);
+        intent.putExtra(ANSWERED_QUESTIONS, answered);
+        startActivity(intent);
+        finish();
     }
 
     private List<Question> readQuestions(String path) {
