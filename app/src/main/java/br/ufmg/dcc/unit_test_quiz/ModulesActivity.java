@@ -156,7 +156,7 @@ public class ModulesActivity extends AppCompatActivity {
                 new AdapterView.OnItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                        Intent intent = new Intent(ModulesActivity.this, NewQuestionsActivity.class);
+                        Intent intent = new Intent(ModulesActivity.this, QuestionsActivity.class);
                         ListItem item = items.get(position);
                         intent.putExtra(QUESTIONS_FILE_PATH, item.questionsFilePath);
                         intent.putExtra(QUESTIONS_ACTIVITY, item.text);
