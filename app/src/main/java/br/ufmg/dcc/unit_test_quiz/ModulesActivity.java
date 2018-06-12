@@ -31,8 +31,8 @@ public class ModulesActivity extends AppCompatActivity {
         MODULE, ACTIVITY
     }
 
-    public static final String QUESTIONS_FILE_PATH="questionsFilePath";
-    public static final String QUESTIONS_ACTIVITY ="questionsActivity";
+    public static final String QUESTIONS_FILE_PATH = "questionsFilePath";
+    public static final String QUESTIONS_ACTIVITY = "questionsActivity";
 
     public static class ListItem {
         public ItemType type;
@@ -73,22 +73,19 @@ public class ModulesActivity extends AppCompatActivity {
 
             assert item != null;
 
-            if (convertView == null) {
-                if (item.type == ItemType.MODULE) {
-                    convertView = LayoutInflater.from(getContext()).inflate(
+            if (item.type == ItemType.MODULE) {
+                convertView = LayoutInflater.from(getContext()).inflate(
                         R.layout.module_list_item,
                         parent, false
-                    );
+                );
 
-                    convertView.setClickable(false);
-                    convertView.setOnClickListener(null);
-                }
-                else {
-                    convertView = LayoutInflater.from(getContext()).inflate(
-                            R.layout.activities_list_item,
-                            parent, false
-                    );
-                }
+                convertView.setClickable(false);
+                convertView.setOnClickListener(null);
+            } else {
+                convertView = LayoutInflater.from(getContext()).inflate(
+                        R.layout.activities_list_item,
+                        parent, false
+                );
             }
 
 
@@ -98,18 +95,17 @@ public class ModulesActivity extends AppCompatActivity {
         }
     }
 
-    private ArrayList<ListItem> readActivities(){
+    private ArrayList<ListItem> readActivities() {
 
         ArrayList<ListItem> results = new ArrayList<>();
         AssetManager assets = getAssets();
         InputStream inputStream;
         String jsonString = null;
         JSONArray jsonArray = null;
-        try{
+        try {
             inputStream = assets.open("activities.json");
             jsonString = IOUtils.readInputStream(inputStream);
-        }
-        catch (IOException ioex){
+        } catch (IOException ioex) {
             ioex.getStackTrace();
             System.exit(1);
         }
@@ -151,12 +147,12 @@ public class ModulesActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        ListView lv = (ListView) findViewById(R.id.activities_list_view);
+        ListView listView = (ListView) findViewById(R.id.activities_list_view);
 
         final ArrayList<ListItem> items = readActivities();
         ItemAdapter adapter = new ItemAdapter(this, items);
 
-        lv.setOnItemClickListener(
+        listView.setOnItemClickListener(
                 new AdapterView.OnItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -169,10 +165,8 @@ public class ModulesActivity extends AppCompatActivity {
                 }
         );
 
-        lv.setAdapter(adapter);
+        listView.setAdapter(adapter);
     }
-
-
 
 
 }

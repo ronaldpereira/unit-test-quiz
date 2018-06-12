@@ -33,10 +33,6 @@
 		"name":"Outros testes",
 		"activities":[
 			{
-				"name":"Testes automatizados",
-				"questionsFilePath":"questions/outros_testes/teste_automatizado"
-			},
-			{
 				"name":"Testes de integração",
 				"questionsFilePath":"questions/outros_testes/teste_integracao"
 			},
@@ -47,10 +43,6 @@
 			{
 				"name":"Testes de validação e verificação",
 				"questionsFilePath":"questions/outros_testes/teste_validacao_e_verificacao"
-			},
-			{
-				"name":"Teste de caixa preta e caixa branca",
-				"questionsFilePath":"questions/outros_testes/teste_caixa_preta_branca"
 			},
 			{
 				"name":"Teste alfa e beta",
