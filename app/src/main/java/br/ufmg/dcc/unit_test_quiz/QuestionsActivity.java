@@ -117,6 +117,10 @@ public class QuestionsActivity extends AppCompatActivity {
     }
 
     private void updateQuestion() {
+        updateQuestion(true);
+    }
+
+    private void updateQuestion(boolean setAdapter) {
         numberTextView.setText(String.format("Questão %02d", currentQuestion + 1));
 
         int correct = 0;
@@ -157,6 +161,11 @@ public class QuestionsActivity extends AppCompatActivity {
 
         }
 
+        if (!setAdapter) {
+            listView.invalidateViews();
+            return;
+        }
+
         listView.setAdapter(new ArrayAdapter<String>(
                 this, android.R.layout.simple_list_item_1, options
         ) {
@@ -195,7 +204,7 @@ public class QuestionsActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 int index = (int) l;
                 answers.set(currentQuestion, index);
-                updateQuestion();
+                updateQuestion(false);
 
                 final AtomicBoolean cancelCopy = cancel;
                 cancelCopy.set(false);
