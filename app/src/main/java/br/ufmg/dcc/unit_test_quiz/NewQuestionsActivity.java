@@ -2,8 +2,8 @@ package br.ufmg.dcc.unit_test_quiz;
 
 import android.content.Intent;
 import android.content.res.AssetManager;
-import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -16,23 +16,22 @@ import dcc.ufmg.br.quizdetestesunidade.R;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 public class NewQuestionsActivity extends AppCompatActivity {
     private ListView listView;
 
     private View header;
+    private Handler handler;
     private TextView textView;
-    private int currentAnswer;
+    private Button hintButton;
     private int currentQuestion;
     private Button progressTextView;
     private TextView numberTextView;
     private List<Question> questions;
-    private ArrayList<Boolean> answered;
-    private int answeredCount;
+    private ArrayList<Integer> answers;
+    private ArrayList<Integer> hints;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +39,8 @@ public class NewQuestionsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_questions_new);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        handler = new Handler();
 
         listView = (ListView) findViewById(R.id.list_view);
 
@@ -50,9 +51,12 @@ public class NewQuestionsActivity extends AppCompatActivity {
 
         questions = readQuestions(questionsPath);
 
-        answeredCount = 0;
-        answered = new ArrayList<>();
-        for (int i = 0; i < questions.size(); i++) answered.add(false);
+        answers = new ArrayList<>();
+        hints = new ArrayList<>();
+        for (int i = 0; i < questions.size(); i++) {
+            answers.add(-1);
+            hints.add(-1);
+        }
 
         currentQuestion = 0;
 
@@ -63,11 +67,23 @@ public class NewQuestionsActivity extends AppCompatActivity {
 
         progressTextView = (Button) header.findViewById(R.id.progress_text_button);
 
+        hintButton = (Button) header.findViewById(R.id.hint_button);
+
+        hintButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                giveAHint();
+            }
+        });
+
         ((Button) header.findViewById(R.id.next_button)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 currentQuestion = (currentQuestion + 1) % questions.size();
                 updateQuestion();
+
+                cancel.set(true);
+                cancel = new AtomicBoolean();
             }
         });
 
@@ -77,31 +93,68 @@ public class NewQuestionsActivity extends AppCompatActivity {
                 currentQuestion--;
                 currentQuestion = currentQuestion == -1 ? questions.size() - 1 : currentQuestion;
                 updateQuestion();
+
+                cancel.set(true);
+                cancel = new AtomicBoolean();
             }
         });
+
         textView = (TextView) header.findViewById(R.id.text_view);
 
         listView.addHeaderView(header, null, false);
         updateQuestion();
+    }
 
+    private void giveAHint() {
+        ArrayList<Integer> possibleHints = new ArrayList<>();
+
+        for (int i = 0; i < questions.get(currentQuestion).getOptions().size(); i++) {
+            if (questions.get(currentQuestion).getAnswer() != i) possibleHints.add(i);
+        }
+
+        int hintIndex = Math.abs(new Random().nextInt()) % possibleHints.size();
+        hints.set(currentQuestion, possibleHints.get(hintIndex));
+        updateQuestion();
     }
 
     private void updateQuestion() {
-        updateQuestion(true);
-    }
-
-    private void updateQuestion(boolean resetAnswer) {
         numberTextView.setText(String.format("Questão %02d", currentQuestion + 1));
-        progressTextView.setText(String.format("%d/%d", answeredCount, questions.size()));
+
+        int correct = 0;
+        int answered = 0;
+
+        for (int i = 0; i < questions.size(); i++) {
+            if (answers.get(i) != -1) {
+                if (answers.get(i) == questions.get(i).getAnswer()) correct++;
+                answered++;
+            }
+        }
+
+        if (answers.get(currentQuestion) != -1 ||
+                questions.get(currentQuestion).getOptions().size() < 3 ||
+                hints.get(currentQuestion) != - 1) {
+            hintButton.setEnabled(false);
+        } else {
+            hintButton.setEnabled(true);
+        }
+
+        progressTextView.setText(String.format("%d/%d", correct, answered));
 
         textView.setText(questions.get(currentQuestion).getText());
 
         final int correctAnswer = questions.get(currentQuestion).getAnswer();
 
-        listView.setEnabled(!answered.get(currentQuestion));
+        //listView.setEnabled(answers.get(currentQuestion) == -1);
+
+        ArrayList<String> options = questions.get(currentQuestion).getOptions();
+        for (int i = 0; i < options.size(); i++) {
+            String s = options.get(i);
+            options.set(i, s.substring(0, 1).toUpperCase() + s.substring(1));
+
+        }
 
         listView.setAdapter(new ArrayAdapter<String>(
-                this, android.R.layout.simple_list_item_1, questions.get(currentQuestion).getOptions()
+                this, android.R.layout.simple_list_item_1, options
         ) {
 
             @NonNull
@@ -109,35 +162,62 @@ public class NewQuestionsActivity extends AppCompatActivity {
             public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
                 View view = super.getView(position, convertView, parent);
                 view.setBackgroundColor(getColor(android.R.color.background_light));
-                if (answered.get(currentQuestion)) {
+
+                if (answers.get(currentQuestion) != -1) {
                     if (position == correctAnswer) {
                         view.setBackgroundColor(getColor(android.R.color.holo_green_light));
-                    }
-                }
-                else if (currentAnswer != -1) {
-                    if (position == correctAnswer) {
-                        view.setBackgroundColor(getColor(android.R.color.holo_green_light));
-                    } else if (position == currentAnswer) {
+                    } else if (position == answers.get(currentQuestion)) {
                         view.setBackgroundColor(getColor(android.R.color.holo_red_light));
                     }
                 }
+                if (position == hints.get(currentQuestion)) {
+                    view.setBackgroundColor(getColor(android.R.color.holo_orange_light));
+                }
+
                 return view;
+            }
+
+            @Override
+            public boolean isEnabled(int position) {
+                if (position < hints.size() && hints.get(position) != -1) return false;
+                if (answers.get(currentQuestion) != -1) return false;
+                return super.isEnabled(position);
             }
         });
 
-        if (resetAnswer) currentAnswer = -1;
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                currentAnswer = (int) l;
-                if (currentAnswer == correctAnswer) {
-                    answered.set(currentQuestion, true);
-                    answeredCount++;
-                }
-                updateQuestion(false);
+                int index = (int) l;
+                answers.set(currentQuestion, index);
+                updateQuestion();
+
+                final AtomicBoolean cancelCopy = cancel;
+                cancelCopy.set(false);
+
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        if (!cancelCopy.get()) nextUnanswered();
+                    }
+                }, 3000);
             }
         });
+
+    }
+
+    private AtomicBoolean cancel = new AtomicBoolean();
+
+    private void nextUnanswered() {
+        for (int i = 1; i <= questions.size(); i++) {
+            int j = (currentQuestion + i) % questions.size();
+            if (answers.get(j) == -1) {
+                currentQuestion = j;
+                updateQuestion();
+                break;
+            }
+        }
     }
 
     private List<Question> readQuestions(String path) {

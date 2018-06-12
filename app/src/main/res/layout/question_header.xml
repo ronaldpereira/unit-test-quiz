@@ -23,6 +23,17 @@
             />
 
         <Button
+            android:layout_toLeftOf="@id/previous_button"
+            android:id="@+id/hint_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dica"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_half_margin"
+            />
+
+        <Button
             android:layout_toLeftOf="@id/next_button"
             android:id="@+id/previous_button"
             android:layout_width="wrap_content"
