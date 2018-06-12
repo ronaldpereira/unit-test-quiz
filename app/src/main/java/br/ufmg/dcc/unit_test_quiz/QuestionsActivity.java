@@ -72,7 +72,7 @@ public class QuestionsActivity extends AppCompatActivity {
         hintButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                giveAHint();
+                showHint();
             }
         });
 
@@ -105,9 +105,8 @@ public class QuestionsActivity extends AppCompatActivity {
         updateQuestion();
     }
 
-    private void giveAHint() {
+    private void showHint() {
         ArrayList<Integer> possibleHints = new ArrayList<>();
-
         for (int i = 0; i < questions.get(currentQuestion).getOptions().size(); i++) {
             if (questions.get(currentQuestion).getAnswer() != i) possibleHints.add(i);
         }
@@ -184,9 +183,9 @@ public class QuestionsActivity extends AppCompatActivity {
 
             @Override
             public boolean isEnabled(int position) {
-                if (position < hints.size() && hints.get(position) != -1) return false;
+                if (position < hints.size() && hints.get(currentQuestion) == position) return false;
                 if (answers.get(currentQuestion) != -1) return false;
-                return super.isEnabled(position);
+                return true;
             }
         });
 
