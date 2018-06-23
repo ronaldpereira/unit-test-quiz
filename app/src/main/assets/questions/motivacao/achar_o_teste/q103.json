@@ -1,0 +1,12 @@
+{
+    "title": "",
+    "text": "Garantir que um ou mais componentes de um sistema combinados funcionam corretamente é o objetivo do tipo de teste",
+    "options": [
+        "de sistema.",
+        "de integração.",
+        "de configuração.",
+        "operacional.",
+        "funcional."
+    ],
+    "answer": 1
+}

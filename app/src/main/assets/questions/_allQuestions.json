@@ -213,6 +213,36 @@
         ],
         "answer": 0
 	},
+	"conceitos_basicos/conceitos_gerais/q108.json":{
+        "title": "",
+        "text": "A fun\u00e7\u00e3o de um Testador de software pode ser assinalada nas seguintes alternativas, EXCETO:",
+        "options": [
+                "Possuir um bom entendimento do processo de desenvolvimento e do produto a ser gerado, al\u00e9m da habilidade de indicar poss\u00edveis falhas e erros.",
+                "Ter uma atitude de questionar todos os aspectos relacionados ao software.",
+                "Observar o produto a ser desenvolvido e questionar sua validade.",
+                "Investigar um software a fim de fornecer informa\u00e7\u00f5es sobre sua qualidade.",
+                "Gerenciar os projetos de software."
+        ],
+        "answer": 4
+	},
+	"conceitos_basicos/conceitos_gerais/q110.json":{
+        "title": "Julgue o  item  , acerca de m\u00e9tricas e estimativas aplicadas a testes de software.",
+        "text": "O grau de envolvimento dos usu\u00e1rios nos testes do software \u00e9 fator irrelevante tanto nos resultados dos testes quanto no grau de esfor\u00e7o da equipe de teste, sendo, por isso, desprez\u00edvel a sua interfer\u00eancia nos resultados de uma forma global.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 1
+	},
+	"conceitos_basicos/conceitos_gerais/q111.json":{
+        "title": "Julgue o  item  , acerca de m\u00e9tricas e estimativas aplicadas a testes de software.",
+        "text": "Se um conjunto de softwares que ser\u00e3o testados contiver grande quantidade de arquivos, esse fator incidir\u00e1 diretamente na maior dificuldade dos testes, em rela\u00e7\u00e3o a testes realizados em softwares que possuam pouca quantidade de arquivos a serem testados.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
 	"conceitos_basicos/conceitos_gerais/q44.json":{
         "title": "No que diz respeito \u00e0 engenharia de testes, julgue o item subsecutivo.",
         "text": "A medida de complexidade ciclom\u00e1tica \u00e9 obtida pela contagem de estruturas de sele\u00e7\u00e3o e repeti\u00e7\u00e3o ou pela contagem do n\u00famero de regi\u00f5es do grafo de fluxo, tendo a segunda t\u00e9cnica menor precis\u00e3o que a primeira.",
@@ -347,6 +377,30 @@
         "options": [
                 "Certo",
                 "Errado"
+        ],
+        "answer": 1
+	},
+	"motivacao/achar_o_teste/q101.json":{
+        "title": "",
+        "text": "A execu\u00e7\u00e3o de um sistema com o objetivo de encontrar falhas sob condi\u00e7\u00f5es que demandam recursos em quantidade, frequ\u00eancia ou volume anormais \u00e9 definida como",
+        "options": [
+                "payload.",
+                "teste de estresse.",
+                "teste de desempenho.",
+                "lat\u00eancia da falha.",
+                "workload."
+        ],
+        "answer": 1
+	},
+	"motivacao/achar_o_teste/q103.json":{
+        "title": "",
+        "text": "Garantir que um ou mais componentes de um sistema combinados funcionam corretamente \u00e9 o objetivo do tipo de teste",
+        "options": [
+                "de sistema.",
+                "de integra\u00e7\u00e3o.",
+                "de configura\u00e7\u00e3o.",
+                "operacional.",
+                "funcional."
         ],
         "answer": 1
 	},
@@ -605,6 +659,15 @@
                 "Errado"
         ],
         "answer": 0
+	},
+	"motivacao/testes_no_desenvolvimento/q104.json":{
+        "title": "",
+        "text": "A rotina di\u00e1ria dos desenvolvedores, ao empregar processos baseados no TDD (Test Driven Development), \u00e9 concentrada na elabora\u00e7\u00e3o de testes de homologa\u00e7\u00e3o.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 1
 	},
 	"motivacao/testes_no_desenvolvimento/q68.json":{
         "title": "",
@@ -885,6 +948,15 @@
                 "Errado"
         ],
         "answer": 0
+	},
+	"outros_testes/teste_caixa_preta_ branca/q109.json":{
+        "title": "",
+        "text": "O teste de caixa-preta \u00e9 utilizado quando uma nova vers\u00e3o do software est\u00e1 sendo lan\u00e7ada ou quando um novo ciclo de testes for necess\u00e1rio em paralelo ao desenvolvimento do mesmo.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 1
 	},
 	"outros_testes/teste_caixa_preta_ branca/q56.json":{
         "title": "",

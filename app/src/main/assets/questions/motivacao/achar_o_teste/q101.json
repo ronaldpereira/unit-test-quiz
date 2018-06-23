@@ -1,0 +1,12 @@
+{
+    "title": "",
+    "text": "A execução de um sistema com o objetivo de encontrar falhas sob condições que demandam recursos em quantidade, frequência ou volume anormais é definida como",
+    "options": [
+        "payload.",
+        "teste de estresse.",
+        "teste de desempenho.",
+        "latência da falha.",
+        "workload."
+    ],
+    "answer": 1
+}

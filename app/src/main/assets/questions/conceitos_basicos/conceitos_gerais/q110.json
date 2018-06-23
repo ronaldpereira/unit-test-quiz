@@ -1,0 +1,9 @@
+{
+    "title": "Julgue o  item  , acerca de métricas e estimativas aplicadas a testes de software.",
+    "text": "O grau de envolvimento dos usuários nos testes do software é fator irrelevante tanto nos resultados dos testes quanto no grau de esforço da equipe de teste, sendo, por isso, desprezível a sua interferência nos resultados de uma forma global.",
+    "options": [
+        "Certo",
+        "Errado"
+    ],
+    "answer": 1
+}
