@@ -1,0 +1,10 @@
+{
+  "title": "FEPESE - SEFAZ-SC - Auditor Fiscal da Receita Estadual Parte 3 - 2010",
+  "text": "Analise a definição abaixo.\nTeste de software que procura descobrir erros por meio da reaplicação parcial dos testes a um programa modificado.\nAssinale a alternativa que cita corretamente o conceito ao qual se refere a definição.",
+  "options": ["Teste de sistema",
+    "Teste de unidade",
+    "Teste de regressão",
+    "Teste de integração",
+    "Teste de requisitos"],
+  "answer": 2
+}

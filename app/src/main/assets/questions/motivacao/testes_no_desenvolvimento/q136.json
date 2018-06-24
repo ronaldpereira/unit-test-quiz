@@ -1,0 +1,10 @@
+{
+  "title": "FIP - Câmara Municipal de São José dos Campos - Programador - 2009",
+  "text": " Com relação à qualidade de software, é incorreto afirmar que:",
+  "options": ["os testes são incapazes de garantir que um software não irá apresentar erros durante a execução.",
+    "os testes são técnicas dinâmicas de verificação e validação, pois trabalham com uma representação executável do sistema.",
+    "o processo de validação tem por objetivo realizar testes até que nenhum erro seja encontrado.",
+    "um teste bem-sucedido é aquele que revela um erro ainda desconhecido.",
+    "testes de programas podem ser usados para mostrar a presença de erros, mas nunca para mostrar a sua ausência."],
+  "answer": 2
+}

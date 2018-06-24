@@ -1,0 +1,10 @@
+{
+  "title": "FUNIVERSA - IPHAN- Analista - 2009",
+  "text": "Os testes de software são verificações realizadas com o objetivo de avaliar se o software atende às necessidades especificadas ou identificar as diferenças entre os resultados esperados e reais. Com relação aos tipos de testes de software assinale a alternativa correta. ",
+  "options": ["Os testes de caixa branca, ou testes funcionais, podem também testar 'funções ausentes'.",
+    "Os testes em grande escala corrigem erros de desenho e falhas nos testes de programas.",
+    "Os testes dos recursos funcionais do sistema têm a finalidade de fornecer uma medida sistemática dos recursos de desempenho do sistema e demonstrar a qualidade global do mesmo.",
+    "Os testes de aceitação são frequentemente incluídos na bateria dos testes de resistência, e usam estratégia de processamento paralelo.",
+    "Testes de caixa preta são independentes da lógica de codificação, mas são derivados das especificações do programa ou componente."],
+  "answer": 4
+}

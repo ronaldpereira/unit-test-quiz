@@ -1,0 +1,10 @@
+{
+  "title": "CESGRANRIO - BACEN - Analsita do Banco Central - 2010",
+  "text": "Em determinado formulário de um sistema WEB, é apresentado um campo de entrada que deve aceitar números inteiros de 10 a 500. De acordo com a análise de valor limite, que valores devem ser testados?",
+  "options": ["9, 10, 500, 501",
+    "0, 455, 1000",
+    "?1, 20, 490, 1010",
+    "?10, 0, 455",
+    "?32768, ?1024, 18, 455, 492, 1024, 32768"],
+  "answer": 0
+}

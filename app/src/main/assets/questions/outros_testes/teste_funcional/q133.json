@@ -1,0 +1,7 @@
+{
+  "title": "CESPE - TRE-BA - Técnico Judiciário - 2010",
+  "text": "Teste funcional é uma técnica para se projetar casos de teste na qual o programa ou sistema é considerado uma caixa-preta e, para testá-lo, são fornecidas entradas e avaliadas as saídas geradas.",
+  "options": ["Certo",
+    "Errado"],
+  "answer": 0
+}

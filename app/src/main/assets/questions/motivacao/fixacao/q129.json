@@ -1,0 +1,7 @@
+{
+  "title": "CESPE - TRE-BA - Técnico Judiciário - 2010",
+  "text": " Casos de uso do tipo caixa-preta descrevem o funcionamento interno de um sistema, seus componentes ou projeto. Além do tipo de visibilidade caixa-preta versus caixa-branca, os casos de uso são escritos nos graus de formalidade extenso, formal e incompleto.",
+  "options": ["Certo",
+    "Errado"],
+  "answer": 1
+}

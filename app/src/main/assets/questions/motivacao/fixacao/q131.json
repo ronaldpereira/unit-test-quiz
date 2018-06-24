@@ -1,0 +1,7 @@
+{
+  "title": "CESPE - TRE-BA - Técnico Judiciário - 2010",
+  "text": "No teste de unidade, o software é forçado a falhar de diversos modos a fim de verificar se os requisitos funcionais foram adequadamente implementados. As unidades, sejam funções, procedimentos, métodos ou classes, são testadas duas a duas. Nesse teste, espera-se identificar erros relacionados a algoritmos incorretos ou mal implementados, estruturas de dados incorretas ou simples erros de programação. ",
+  "options": ["Certo",
+    "Errado"],
+  "answer": 1
+}

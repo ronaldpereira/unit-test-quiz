@@ -1,2 +1,2 @@
 joinQuestions:
-	python3 joinQuestions.py */*/q*.json
+	python joinQuestions.py */*/q*.json

@@ -1,0 +1,10 @@
+{
+  "title": "FGV - BADESCT - Analista de Sistemas - 2010",
+  "text": "O teste de software que projeta casos de testes derivados do conhecimento da estrutura e da implementação do software é conhecido por:",
+  "options": ["teste sde releases",
+    "teste caixa-claro",
+    "teste caixa-preta",
+    "teste de aceitação",
+    "teste de integração"],
+  "answer": 1
+}
