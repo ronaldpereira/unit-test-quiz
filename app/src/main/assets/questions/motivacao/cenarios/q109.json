@@ -1,0 +1,12 @@
+{
+    "title": "Um gerente de projeto está preocupado com o desempenho de um sistema de informação que está prestes a ser implantado, uma vez que existe uma expectativa de acesso de muitos usuários.",
+    "text": "Que tipo de teste, mais especificamente, pode ser realizado para avaliar o desempenho desse sistema, dadas condições operacionais variáveis, tais como número de usuários e transações?",
+    "options": [
+        "Carga",
+        "Funcional",
+        "Integração",
+        "Unidade",
+        "Usabilidade"
+    ],
+    "answer": 0
+}

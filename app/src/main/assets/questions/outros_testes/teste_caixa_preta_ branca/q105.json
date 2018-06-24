@@ -1,0 +1,9 @@
+{
+    "title": "",
+    "text": "Quando o objetivo é testar uma funcionalidade, assegurando-se que, para todo tipo de entrada, a saída observada corresponda àquela esperada, pode-se alcançar esse objetivo fazendo-se uso de testes do tipo caixa-branca.",
+    "options": [
+        "Certo",
+        "Errado"
+    ],
+    "answer": 1
+}

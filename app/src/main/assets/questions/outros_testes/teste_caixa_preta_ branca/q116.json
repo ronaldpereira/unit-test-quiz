@@ -1,0 +1,12 @@
+{
+    "title": "",
+    "text": "O teste de um componente de software é classificado como caixa-preta quando",
+    "options": [
+        "utiliza pacotes de software de terceiros na sua execução.",
+        "utiliza componente desenvolvido internamente.",
+        "utiliza ferramentas de automatização de testes.",
+        "é baseado apenas na interface do componente.",
+        "são gerados, a partir do código fonte do componente, os casos de teste."
+    ],
+    "answer": 3
+}
