@@ -1,0 +1,9 @@
+{
+    "title": "Julgue o  item  , acerca de métricas e estimativas aplicadas a testes de software.",
+    "text": "Se um conjunto de softwares que serão testados contiver grande quantidade de arquivos, esse fator incidirá diretamente na maior dificuldade dos testes, em relação a testes realizados em softwares que possuam pouca quantidade de arquivos a serem testados.",
+    "options": [
+        "Certo",
+        "Errado"
+    ],
+    "answer": 0
+}

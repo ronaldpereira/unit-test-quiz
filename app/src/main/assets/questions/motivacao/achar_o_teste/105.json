@@ -1,0 +1,12 @@
+{
+    "title": "",
+    "text": "Também conhecido por teste estrutural ou orientado à lógica, é uma técnica de teste de software que trabalha diretamente sobre o código fonte do componente de software para avaliar aspectos, tais como, teste de condição, teste de fluxo de dados, teste de ciclos e teste de caminhos lógicos. Trata-se da técnica de teste",
+    "options": [
+        "da Caixa-branca.",
+        "da Caixa-cinza.",
+        "da Caixa-preta.",
+        "de Integração.",
+        "de Regressão."
+    ],
+    "answer": 0
+}

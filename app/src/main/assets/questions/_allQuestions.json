@@ -213,6 +213,60 @@
         ],
         "answer": 0
 	},
+	"conceitos_basicos/conceitos_gerais/q108.json":{
+        "title": "",
+        "text": "A fun\u00e7\u00e3o de um Testador de software pode ser assinalada nas seguintes alternativas, EXCETO:",
+        "options": [
+                "Possuir um bom entendimento do processo de desenvolvimento e do produto a ser gerado, al\u00e9m da habilidade de indicar poss\u00edveis falhas e erros.",
+                "Ter uma atitude de questionar todos os aspectos relacionados ao software.",
+                "Observar o produto a ser desenvolvido e questionar sua validade.",
+                "Investigar um software a fim de fornecer informa\u00e7\u00f5es sobre sua qualidade.",
+                "Gerenciar os projetos de software."
+        ],
+        "answer": 4
+	},
+	"conceitos_basicos/conceitos_gerais/q110.json":{
+        "title": "Julgue o  item  , acerca de m\u00e9tricas e estimativas aplicadas a testes de software.",
+        "text": "O grau de envolvimento dos usu\u00e1rios nos testes do software \u00e9 fator irrelevante tanto nos resultados dos testes quanto no grau de esfor\u00e7o da equipe de teste, sendo, por isso, desprez\u00edvel a sua interfer\u00eancia nos resultados de uma forma global.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 1
+	},
+	"conceitos_basicos/conceitos_gerais/q111.json":{
+        "title": "Julgue o  item  , acerca de m\u00e9tricas e estimativas aplicadas a testes de software.",
+        "text": "Se um conjunto de softwares que ser\u00e3o testados contiver grande quantidade de arquivos, esse fator incidir\u00e1 diretamente na maior dificuldade dos testes, em rela\u00e7\u00e3o a testes realizados em softwares que possuam pouca quantidade de arquivos a serem testados.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"conceitos_basicos/conceitos_gerais/q115.json":{
+        "title": "",
+        "text": "No que se refere a testes de software, \u00e9 correto afirmar que ",
+        "options": [
+                "o teste de opera\u00e7\u00e3o \u00e9 a fase onde \u00e9 testada a ergonomia da interface de uso do software.",
+                "o teste da caixa preta (teste funcional), baseia-se em analisar os arquivos de log do sistema procurando por mensagens de funcionamento inconsistente.",
+                "um teste bem sucedido \u00e9 um teste que n\u00e3o encontra nenhum erro no software.",
+                "o teste da caixa branca (teste estrutural), baseia-se em testar as estruturas do c\u00f3digo fonte, como comandos condicionais e de repeti\u00e7\u00e3o.",
+                "um caso de teste \u00e9 uma categoria de poss\u00edveis resultados na execu\u00e7\u00e3o de testes."
+        ],
+        "answer": 3
+	},
+	"conceitos_basicos/conceitos_gerais/q118.json":{
+        "title": "",
+        "text": "Os testes de software s\u00e3o executados, usando os procedimentos e documentos de script de teste. Para que a fase de execu\u00e7\u00e3o de teste, seja realizada com sucesso deve(m) ser executado(s):",
+        "options": [
+                "os casos de uso",
+                "os diagramas de atividade",
+                "os casos de teste",
+                "os testes de Turing",
+                "o teste de COMA."
+        ],
+        "answer": 2
+	},
 	"conceitos_basicos/conceitos_gerais/q44.json":{
         "title": "No que diz respeito \u00e0 engenharia de testes, julgue o item subsecutivo.",
         "text": "A medida de complexidade ciclom\u00e1tica \u00e9 obtida pela contagem de estruturas de sele\u00e7\u00e3o e repeti\u00e7\u00e3o ou pela contagem do n\u00famero de regi\u00f5es do grafo de fluxo, tendo a segunda t\u00e9cnica menor precis\u00e3o que a primeira.",
@@ -350,6 +404,30 @@
         ],
         "answer": 1
 	},
+	"motivacao/achar_o_teste/q101.json":{
+        "title": "",
+        "text": "A execu\u00e7\u00e3o de um sistema com o objetivo de encontrar falhas sob condi\u00e7\u00f5es que demandam recursos em quantidade, frequ\u00eancia ou volume anormais \u00e9 definida como",
+        "options": [
+                "payload.",
+                "teste de estresse.",
+                "teste de desempenho.",
+                "lat\u00eancia da falha.",
+                "workload."
+        ],
+        "answer": 1
+	},
+	"motivacao/achar_o_teste/q107.json":{
+        "title": "",
+        "text": "Garantir que um ou mais componentes de um sistema combinados funcionam corretamente \u00e9 o objetivo do tipo de teste",
+        "options": [
+                "de sistema.",
+                "de integra\u00e7\u00e3o.",
+                "de configura\u00e7\u00e3o.",
+                "operacional.",
+                "funcional."
+        ],
+        "answer": 1
+	},
 	"motivacao/achar_o_teste/q66.json":{
         "title": "",
         "text": "Os testes de software podem ser aplicados no ciclo de desenvolvimento de software atrav\u00e9s de v\u00e1rios n\u00edveis que v\u00e3o desde o mais elementar at\u00e9 o mais geral. Na etapa de planejamento de testes, inicialmente, a partir do documento de requisitos, \u00e9 planejado o teste de",
@@ -419,6 +497,18 @@
                 "Extreme Programming e Selenium.",
                 "Test-Driven Development e Jenkins.",
                 "Data-Driven Development and Test e JUnit."
+        ],
+        "answer": 0
+	},
+	"motivacao/cenarios/q109.json":{
+        "title": "Um gerente de projeto est\u00e1 preocupado com o desempenho de um sistema de informa\u00e7\u00e3o que est\u00e1 prestes a ser implantado, uma vez que existe uma expectativa de acesso de muitos usu\u00e1rios.",
+        "text": "Que tipo de teste, mais especificamente, pode ser realizado para avaliar o desempenho desse sistema, dadas condi\u00e7\u00f5es operacionais vari\u00e1veis, tais como n\u00famero de usu\u00e1rios e transa\u00e7\u00f5es?",
+        "options": [
+                "Carga",
+                "Funcional",
+                "Integra\u00e7\u00e3o",
+                "Unidade",
+                "Usabilidade"
         ],
         "answer": 0
 	},
@@ -605,6 +695,15 @@
                 "Errado"
         ],
         "answer": 0
+	},
+	"motivacao/testes_no_desenvolvimento/q104.json":{
+        "title": "",
+        "text": "A rotina di\u00e1ria dos desenvolvedores, ao empregar processos baseados no TDD (Test Driven Development), \u00e9 concentrada na elabora\u00e7\u00e3o de testes de homologa\u00e7\u00e3o.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 1
 	},
 	"motivacao/testes_no_desenvolvimento/q68.json":{
         "title": "",
@@ -886,6 +985,57 @@
         ],
         "answer": 0
 	},
+	"outros_testes/teste_caixa_preta_ branca/q102.json":{
+        "title": "Em rela\u00e7\u00e3o aos tipos de teste de software, julgue o  item  subsequente.",
+        "text": "O teste denominado caixa-preta \u00e9 utilizado para verificar se os requisitos do software s\u00e3o atendidos, sem verificar o c\u00f3digo ou a l\u00f3gica do componente testado.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"outros_testes/teste_caixa_preta_ branca/q105.json":{
+        "title": "",
+        "text": "Quando o objetivo \u00e9 testar uma funcionalidade, assegurando-se que, para todo tipo de entrada, a sa\u00edda observada corresponda \u00e0quela esperada, pode-se alcan\u00e7ar esse objetivo fazendo-se uso de testes do tipo caixa-branca.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 1
+	},
+	"outros_testes/teste_caixa_preta_ branca/q106.json":{
+        "title": "",
+        "text": "O teste de caixa-preta \u00e9 utilizado quando uma nova vers\u00e3o do software est\u00e1 sendo lan\u00e7ada ou quando um novo ciclo de testes for necess\u00e1rio em paralelo ao desenvolvimento do mesmo.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 1
+	},
+	"outros_testes/teste_caixa_preta_ branca/q116.json":{
+        "title": "",
+        "text": "O teste de um componente de software \u00e9 classificado como caixa-preta quando",
+        "options": [
+                "utiliza pacotes de software de terceiros na sua execu\u00e7\u00e3o.",
+                "utiliza componente desenvolvido internamente.",
+                "utiliza ferramentas de automatiza\u00e7\u00e3o de testes.",
+                "\u00e9 baseado apenas na interface do componente.",
+                "s\u00e3o gerados, a partir do c\u00f3digo fonte do componente, os casos de teste."
+        ],
+        "answer": 3
+	},
+	"outros_testes/teste_caixa_preta_ branca/q117.json":{
+        "title": "",
+        "text": "A fase de elabora\u00e7\u00e3o dos testes de software \u00e9 uma das partes mais importantes, no desenvolvimento de um software.Sobre o teste de caixa branca,assinale a alternativa correta.",
+        "options": [
+                "Teste feito pela equipe de testadores de software.",
+                "Teste executado pelo usu\u00e1rio final do software.",
+                "Teste realizado, na fase de concep\u00e7\u00e3o do software.",
+                "Teste executado, ap\u00f3s a implanta\u00e7\u00e3o do software.",
+                "Teste feito pelo pr\u00f3prio programador que verifica, se o c\u00f3digo que foi constru\u00eddo, \u00e9 funcional."
+        ],
+        "answer": 4
+	},
 	"outros_testes/teste_caixa_preta_ branca/q56.json":{
         "title": "",
         "text": "Sobre as t\u00e9cnicas de teste de caixa preta e caixa branca em softwares, assinale a afirmativa INCORRETA.",
@@ -960,6 +1110,33 @@
         ],
         "answer": 1
 	},
+	"outros_testes/teste_funcional/q112.json":{
+        "title": "",
+        "text": "Em teste funcional, o conjunto de valores de entrada v\u00e1lidos pode ser reduzido por meio de parti\u00e7\u00e3o em classes de equival\u00eancia, o que torna a quantidade de dados de entrada finita.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"outros_testes/teste_funcional/q113.json":{
+        "title": "",
+        "text": "A matriz de est\u00edmulos e estados \u00e9 uma t\u00e9cnica que, uma vez aplicada em testes funcionais, estimula que uma quantidade maior de combina\u00e7\u00f5es seja testada.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
+	},
+	"outros_testes/teste_funcional/q114.json":{
+        "title": "Com rela\u00e7\u00e3o a testes funcionais e testes de unidades, julgue o  pr\u00f3ximo  item.",
+        "text": "No teste funcional, d\u00e1-se enfoque ao real atendimento de requisitos funcionais e n\u00e3o funcionais, considerando-se, nesse momento, o funcionamento do sistema, e n\u00e3o o ponto de vista do usu\u00e1rio.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 1
+	},
 	"outros_testes/teste_funcional/q58.json":{
         "title": "",
         "text": "Segundo Delamaro (2007), existem alguns crit\u00e9rios da t\u00e9cnica de teste funcional que s\u00e3o os mais conhecidos. Assinale a alternativa que apresenta uma caracter\u00edstica da t\u00e9cnica conhecida como Grafo Causa-efeito:",
@@ -1022,6 +1199,15 @@
                 "analisa se as partes, quando colocadas para trabalhar juntas, n\u00e3o conduzem a erros."
         ],
         "answer": 2
+	},
+	"outros_testes/teste_regressao/q103.json":{
+        "title": "Em rela\u00e7\u00e3o aos tipos de teste de software, julgue o  item  subsequente.",
+        "text": "Se um software j\u00e1 testado receber modifica\u00e7\u00f5es e, ap\u00f3s isso, somente essas modifica\u00e7\u00f5es forem testadas, a aplica\u00e7\u00e3o do teste de regress\u00e3o a esse software testar\u00e1 inclusive as partes que n\u00e3o tenham sido modificadas.",
+        "options": [
+                "Certo",
+                "Errado"
+        ],
+        "answer": 0
 	},
 	"outros_testes/teste_regressao/q65.json":{
         "title": "No que se refere ao teste de software, julgue o item seguinte.    ",

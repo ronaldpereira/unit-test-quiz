@@ -1,0 +1,9 @@
+{
+    "title": "Em relação aos tipos de teste de software, julgue o  item  subsequente.",
+    "text": "O teste denominado caixa-preta é utilizado para verificar se os requisitos do software são atendidos, sem verificar o código ou a lógica do componente testado.",
+    "options": [
+        "Certo",
+        "Errado"
+    ],
+    "answer": 0
+}

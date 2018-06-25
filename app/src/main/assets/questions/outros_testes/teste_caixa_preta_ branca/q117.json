@@ -1,0 +1,12 @@
+{
+    "title": "",
+    "text": "A fase de elaboração dos testes de software é uma das partes mais importantes, no desenvolvimento de um software.Sobre o teste de caixa branca,assinale a alternativa correta.",
+    "options": [
+        "Teste feito pela equipe de testadores de software.",
+        "Teste executado pelo usuário final do software.",
+        "Teste realizado, na fase de concepção do software.",
+        "Teste executado, após a implantação do software.",
+        "Teste feito pelo próprio programador que verifica, se o código que foi construído, é funcional."
+    ],
+    "answer": 4
+}

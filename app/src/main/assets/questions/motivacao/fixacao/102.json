@@ -1,0 +1,11 @@
+{
+    "title": "",
+    "text": "Com relação a técnicas e estratégias de validação para desenvolvimento de sistemas, assinale a opção correta.",
+    "options": [
+        "O teste gama envolve a liberação do sistema a uma série de clientes potenciais que concordam em usar esse sistema.",
+        "O teste alfa, conhecido como teste de aceitação, encerra-se quando cliente e projetista concordam que o sistema é uma implementação aceitável dos requisitos do sistema e não se aplica a sistemas desenvolvidos para um único cliente.",
+        "Aplicado ao final do processo de teste, o teste caixa-preta ou comportamental é baseado nos requisitos funcionais do software.",
+        "A revisão técnica informal é a mais utilizada para verificação de requisitos e examina a especificação para identificar erros de conteúdo ou de interpretação."
+    ],
+    "answer": 2
+}

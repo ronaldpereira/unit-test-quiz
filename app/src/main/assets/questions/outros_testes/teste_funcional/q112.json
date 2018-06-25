@@ -1,0 +1,9 @@
+{
+    "title": "",
+    "text": "Em teste funcional, o conjunto de valores de entrada válidos pode ser reduzido por meio de partição em classes de equivalência, o que torna a quantidade de dados de entrada finita.",
+    "options": [
+        "Certo",
+        "Errado"
+    ],
+    "answer": 0
+}

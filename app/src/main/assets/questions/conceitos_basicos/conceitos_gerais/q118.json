@@ -1,0 +1,12 @@
+{
+    "title": "",
+    "text": "Os testes de software são executados, usando os procedimentos e documentos de script de teste. Para que a fase de execução de teste, seja realizada com sucesso deve(m) ser executado(s):",
+    "options": [
+        "os casos de uso",
+        "os diagramas de atividade",
+        "os casos de teste",
+        "os testes de Turing",
+        "o teste de COMA."
+    ],
+    "answer": 2
+}
