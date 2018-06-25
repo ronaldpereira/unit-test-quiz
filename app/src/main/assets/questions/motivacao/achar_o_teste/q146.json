@@ -1,0 +1,10 @@
+{
+	"title": "AL-MG 2014 - ANALISTA DE SISTEMAS - DESENVOLVIMENTO DE SISTEMAS",
+	"text": "Tipo de teste que consiste em aplicar em cada nova versão de um software todos os testes que já foram aplicados nas versões anteriores, possibilitando a identificação dos impactos das implementações da nova versão em funcionalidades que já foram testadas anteriormente e não foram modificadas, é denominado",
+	"options": [
+  		"Teste caixa-branca",
+		"Teste Caixa-preta",
+		"Teste de regressão",
+		"Teste de unidade"],
+	"answer": 2
+}

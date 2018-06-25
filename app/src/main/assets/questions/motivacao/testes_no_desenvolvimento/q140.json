@@ -1,0 +1,10 @@
+{
+	"title": "SANEAGO 2018 - Analista de Sistemas",
+	"text": "A análise estática de código pode ser realizada por meio de:",
+	"options": [
+  		"métricas de código.",
+		"execução de testes. ",
+		"acompanhamento de logs produzidos pelo código.",
+		"análise do comportamento (consumo de memória, CPU, …)."],
+	"answer": 0
+}

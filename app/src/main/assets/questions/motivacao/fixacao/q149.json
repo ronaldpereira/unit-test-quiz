@@ -1,0 +1,8 @@
+{
+	"title": "CGE-PI 2015 - AUDITOR GOVERNAMENTAL - TECNOLOGIA DA INFORMAÇÃO",
+	"text": "O desenvolvimento de testes e casos de testes devem necessariamente acontecer após a codificação, uma vez que não é possível, em um desenvolvimento de software, avaliar requisitos antes que o código de fato seja escrito.",
+	"options": [
+  		"Certo",
+		"Errado"],
+	"answer": 1
+}

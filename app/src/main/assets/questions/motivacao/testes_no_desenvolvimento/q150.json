@@ -1,0 +1,11 @@
+{
+	"title": "TCE-SP 2014 - AGENTE DA FISCALIZAÇÃO FINANCEIRA - SISTEMAS, GESTÃO DE PROJETOS E GOVERNANÇA DE TI",
+	"text": "Um dos tipos de teste de software é o teste de desempenho. Um teste desse tipo.",
+	"options": [
+  		"corresponde a medir os tempos de processamento com falhas no hardware do sistema computacional",
+		"não pode ser realizado com o sistema já em operação",
+		"não se aplica a programas escritos com linguagens de programação orientadas a objetos",
+		"visa apenas verificar se o software sob teste não contém erros lógicos",
+		"visa assegurar se o sistema computacional pode operar sob a carga de operação especificada"],
+	"answer": 4
+}

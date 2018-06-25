@@ -476,6 +476,41 @@
         ], 
         "title": "FCC - TRT - Analista Judici\u00e1rio - 2010"
 	},
+	"motivacao/achar_o_teste/q139.json":{
+        "answer": 4, 
+        "text": "H\u00e1 um tipo de teste que vislumbra a \u201cdestrui\u00e7\u00e3o do programa\u201d por meio de sua submiss\u00e3o a quantidades, frequ\u00eancias ou volumes anormais que \u00e9 o teste:", 
+        "options": [
+                "de recupera\u00e7\u00e3o.", 
+                "de configura\u00e7\u00e3o. ", 
+                "beta.", 
+                "de desempenho.", 
+                "de estresse."
+        ], 
+        "title": "TRT - 16\u00aa REGI\u00c3O (MA) - ANALISTA JUDICI\u00c1RIO - TECNOLOGIA DA INFORMA\u00c7\u00c3O"
+	},
+	"motivacao/achar_o_teste/q141.json":{
+        "answer": 4, 
+        "text": "Qual tipo de teste \u00e9 usado para testar especificamente o comportamento de um sistema sob demanda de recursos em quantidade, frequ\u00eancia ou volume anormais?", 
+        "options": [
+                "Teste de Recupera\u00e7\u00e3o", 
+                "Teste de Seguran\u00e7a", 
+                "Teste de Fluxo de Dados", 
+                "Teste de Integra\u00e7\u00e3o", 
+                "Teste de Estresse"
+        ], 
+        "title": "BRDE 2015 - AN\u00c1LISE DE SISTEMAS - DESENVOLVIMENTO DE SISTEMAS"
+	},
+	"motivacao/achar_o_teste/q146.json":{
+        "answer": 2, 
+        "text": "Tipo de teste que consiste em aplicar em cada nova vers\u00e3o de um software todos os testes que j\u00e1 foram aplicados nas vers\u00f5es anteriores, possibilitando a identifica\u00e7\u00e3o dos impactos das implementa\u00e7\u00f5es da nova vers\u00e3o em funcionalidades que j\u00e1 foram testadas anteriormente e n\u00e3o foram modificadas, \u00e9 denominado", 
+        "options": [
+                "Teste caixa-branca", 
+                "Teste Caixa-preta", 
+                "Teste de regress\u00e3o", 
+                "Teste de unidade"
+        ], 
+        "title": "AL-MG 2014 - ANALISTA DE SISTEMAS - DESENVOLVIMENTO DE SISTEMAS"
+	},
 	"motivacao/achar_o_teste/q66.json":{
         "answer": 2, 
         "text": "Os testes de software podem ser aplicados no ciclo de desenvolvimento de software atrav\u00e9s de v\u00e1rios n\u00edveis que v\u00e3o desde o mais elementar at\u00e9 o mais geral. Na etapa de planejamento de testes, inicialmente, a partir do documento de requisitos, \u00e9 planejado o teste de", 
@@ -571,6 +606,18 @@
                 "?32768, ?1024, 18, 455, 492, 1024, 32768"
         ], 
         "title": "CESGRANRIO - BACEN - Analsita do Banco Central - 2010"
+	},
+	"motivacao/cenarios/q147.json":{
+        "answer": 3, 
+        "text": "Um profissional est\u00e1 trabalhando no processo de testes de desenvolvimento de um software orientado a objetos. Inicialmente, realizou o teste das funcionalidades dos objetos ou m\u00e9todos das classes individualmente. Em seguida, integrou v\u00e1rias unidades individuais criando elementos compostos e testou as interfaces desses elementos. Para concluir a bateria de testes, integrou todos os componentes do software e testou a integra\u00e7\u00e3o entre eles como um todo. Os testes realizados pelo profissional foram testes", 
+        "options": [
+                "de unidade, de integra\u00e7\u00e3o e de aceita\u00e7\u00e3o", 
+                "funcionais, de integra\u00e7\u00e3o e de aceita\u00e7\u00e3o", 
+                "alfa, beta e de sistema", 
+                "de unidade, de componentes e de sistema", 
+                "funcionais, de componentes e de integra\u00e7\u00e3o"
+        ], 
+        "title": "TRT - 3\u00aa REGI\u00c3O (MG) 2015 - ANALISTA JUDICI\u00c1RIO - TECNOLOGIA DA INFORMA\u00c7\u00c3O"
 	},
 	"motivacao/cenarios/q65.json":{
         "answer": 1, 
@@ -671,6 +718,48 @@
         ], 
         "title": "FUNIVERSA - IPHAN- Analista - 2009"
 	},
+	"motivacao/fixacao/q138.json":{
+        "answer": 4, 
+        "text": "O m\u00e9todo de testes estruturais de software N\u00c3O tem como objetivo garantir que:", 
+        "options": [
+                "Os caminhos independentes de um m\u00f3dulo sejam exercitados ao menos uma vez.", 
+                "As decis\u00f5es l\u00f3gicas sejam testadas em seus lados verdadeiro e falso.", 
+                "Os ciclos sejam exercitados em seus limites e dentro dos intervalos operacionais.", 
+                "As estruturas de dados internas sejam testadas e validadas ao n\u00edvel de componente.", 
+                "Os erros de interface sejam identificados no contexto dos requisitos funcionais."
+        ], 
+        "title": "Quadrix - 2012 - DATAPREV - Analista de Tecnologia da Informa\u00e7\u00e3o - An\u00e1lise de Neg\u00f3cios"
+	},
+	"motivacao/fixacao/q142.json":{
+        "answer": 4, 
+        "text": "A respeito dos testes de software realizados no ciclo de desenvolvimento de um sistema, assinale a op\u00e7\u00e3o correta.", 
+        "options": [
+                "Testes de estresse de um sistema s\u00e3o manualmente realizados durante o desenvolvimento da solu\u00e7\u00e3o", 
+                "Os testes de caixa preta s\u00e3o realizados somente pelos desenvolvedores e devem ser utilizados para validar os requisitos funcionais do sistema por meio dos testes de caso de uso", 
+                "A automatiza\u00e7\u00e3o de testes restringe-se \u00e0 atividade de implementa\u00e7\u00e3o, com a cria\u00e7\u00e3o de testes unit\u00e1rios que s\u00e3o executados ao final do processo de desenvolvimento", 
+                "Os testes denominados caixa branca s\u00e3o frequentemente utilizados pelos analistas com o objetivo de testar os artefatos e as ader\u00eancias das regras de neg\u00f3cio ao sistema", 
+                "Os testes de aceita\u00e7\u00e3o das metodologias tradicionais n\u00e3o constituem uma atividade em separado na metodologia \u00e1gil XP"
+        ], 
+        "title": "TRE-PE 2016 - T\u00c9CNICO JUDICI\u00c1RIO - PROGRAMA\u00c7\u00c3O DE SISTEMAS"
+	},
+	"motivacao/fixacao/q144.json":{
+        "answer": 0, 
+        "text": "Os casos de testes s\u00e3o especifica\u00e7\u00f5es acerca das entradas para o teste e da sa\u00edda esperada e englobam, tamb\u00e9m, uma declara\u00e7\u00e3o do que est\u00e1 sendo testado. Devido ao tamanho do espa\u00e7o de possibilidades de teste, a gera\u00e7\u00e3o autom\u00e1tica exaustiva de casos de testes que exploram todas as entradas e sa\u00eddas para qualquer configura\u00e7\u00e3o de teste \u00e9 imposs\u00edvel ou computacionalmente intrat\u00e1vel.", 
+        "options": [
+                "Certo", 
+                "Errado"
+        ], 
+        "title": "TCU 2015 - AUDITOR FEDERAL DE CONTROLE EXTERNO - TECNOLOGIA DA INFORMA\u00c7\u00c3O"
+	},
+	"motivacao/fixacao/q149.json":{
+        "answer": 1, 
+        "text": "O desenvolvimento de testes e casos de testes devem necessariamente acontecer ap\u00f3s a codifica\u00e7\u00e3o, uma vez que n\u00e3o \u00e9 poss\u00edvel, em um desenvolvimento de software, avaliar requisitos antes que o c\u00f3digo de fato seja escrito.", 
+        "options": [
+                "Certo", 
+                "Errado"
+        ], 
+        "title": "CGE-PI 2015 - AUDITOR GOVERNAMENTAL - TECNOLOGIA DA INFORMA\u00c7\u00c3O"
+	},
 	"motivacao/fixacao/q73.json":{
         "answer": 4, 
         "text": "Dadas as afirmativas relacionadas \u00e0 Teste de Software,\nI. Testes de software s\u00e3o divididos em diversos tipos, tais como testes de unidade, de integra\u00e7\u00e3o, de sistema, de valida\u00e7\u00e3o e de robustez.\nII. Nos testes caixa branca, tamb\u00e9m conhecidos por testes baseados em implementa\u00e7\u00e3o, o projetista de testes analisa tamb\u00e9m a estrutura interna da aplica\u00e7\u00e3o, como o c\u00f3digo implementado ou a tecnologia utilizada.\nIII. Testes baseados na especifica\u00e7\u00e3o s\u00e3o chamados tamb\u00e9m de testes caixa preta, nos quais o projetista de testes n\u00e3o precisa saber os detalhes de implementa\u00e7\u00e3o do sistema.\nverifica-se que est\u00e1(\u00e3o) correta(s)", 
@@ -720,6 +809,15 @@
                 "A e C"
         ], 
         "title": "Dadas as seguintes afirma\u00e7\u00f5es: "
+	},
+	"motivacao/tdd/q143.json":{
+        "answer": 1, 
+        "text": "A execu\u00e7\u00e3o de testes de unidade automatizados garante a inalterabilidade do comportamento do c\u00f3digo.", 
+        "options": [
+                "Certo", 
+                "Errado"
+        ], 
+        "title": "STJ 2015 - T\u00c9CNICO JUDICI\u00c1RIO - TECNOLOGIA DA INFORMA\u00c7\u00c3O"
 	},
 	"motivacao/tdd/q64.json":{
         "answer": 0, 
@@ -878,6 +976,29 @@
                 "testes de programas podem ser usados para mostrar a presen\u00e7a de erros, mas nunca para mostrar a sua aus\u00eancia."
         ], 
         "title": "FIP - C\u00e2mara Municipal de S\u00e3o Jos\u00e9 dos Campos - Programador - 2009"
+	},
+	"motivacao/testes_no_desenvolvimento/q140.json":{
+        "answer": 0, 
+        "text": "A an\u00e1lise est\u00e1tica de c\u00f3digo pode ser realizada por meio de:", 
+        "options": [
+                "m\u00e9tricas de c\u00f3digo.", 
+                "execu\u00e7\u00e3o de testes. ", 
+                "acompanhamento de logs produzidos pelo c\u00f3digo.", 
+                "an\u00e1lise do comportamento (consumo de mem\u00f3ria, CPU, \u2026)."
+        ], 
+        "title": "SANEAGO 2018 - Analista de Sistemas"
+	},
+	"motivacao/testes_no_desenvolvimento/q150.json":{
+        "answer": 4, 
+        "text": "Um dos tipos de teste de software \u00e9 o teste de desempenho. Um teste desse tipo.", 
+        "options": [
+                "corresponde a medir os tempos de processamento com falhas no hardware do sistema computacional", 
+                "n\u00e3o pode ser realizado com o sistema j\u00e1 em opera\u00e7\u00e3o", 
+                "n\u00e3o se aplica a programas escritos com linguagens de programa\u00e7\u00e3o orientadas a objetos", 
+                "visa apenas verificar se o software sob teste n\u00e3o cont\u00e9m erros l\u00f3gicos", 
+                "visa assegurar se o sistema computacional pode operar sob a carga de opera\u00e7\u00e3o especificada"
+        ], 
+        "title": "TCE-SP 2014 - AGENTE DA FISCALIZA\u00c7\u00c3O FINANCEIRA - SISTEMAS, GEST\u00c3O DE PROJETOS E GOVERNAN\u00c7A DE TI"
 	},
 	"motivacao/testes_no_desenvolvimento/q68.json":{
         "answer": 4, 
@@ -1222,6 +1343,18 @@
         ], 
         "title": "CESGRANRIO - Petrobras - Analista de Sistemas J\u00fanior - 2010"
 	},
+	"outros_testes/teste_caixa_preta_ branca/q148.json":{
+        "answer": 1, 
+        "text": "Os testes de software devem exibir um conjunto de caracter\u00edsticas que atinja o objetivo de encontrar a maioria dos erros com o menor esfor\u00e7o. Dentre os diferentes tipos de teste est\u00e3o os testes de caixa preta e de caixa branca. Sobre estes testes, \u00e9 correto afirmar:", 
+        "options": [
+                "A t\u00e9cnica denominada particionamento de equival\u00eancia \u00e9 um tipo de teste classificado como sendo de caixa branca", 
+                "Para a elabora\u00e7\u00e3o de testes do tipo caixa branca \u00e9 necess\u00e1rio conhecer a estrutura interna dos programas sob teste", 
+                "A t\u00e9cnica denominada caminhos independentes \u00e9 um tipo de teste classificado como sendo de caixa preta", 
+                "As t\u00e9cnicas de teste de caixa branca aplicam-se apenas a software de pequeno porte", 
+                "As t\u00e9cnicas de teste de caixa preta aplicam-se apenas a software desenvolvido com linguagens orientadas a objeto"
+        ], 
+        "title": "TCE-RS 2014 - AUDITOR P\u00daBLICO EXTERNO - T\u00c9CNICO EM PROCESSAMENTO DE DADOS"
+	},
 	"outros_testes/teste_caixa_preta_ branca/q56.json":{
         "answer": 1, 
         "text": "Sobre as t\u00e9cnicas de teste de caixa preta e caixa branca em softwares, assinale a afirmativa INCORRETA.", 
@@ -1361,6 +1494,15 @@
                 "Errado"
         ], 
         "title": "CESPE - TRE-BA - T\u00e9cnico Judici\u00e1rio - 2010"
+	},
+	"outros_testes/teste_integracao/q145.json":{
+        "answer": 1, 
+        "text": "O teste de integra\u00e7\u00e3o consiste em construir gradualmente o sistema, por integra\u00e7\u00e3o de seus componentes, e testar o sistema resultante, buscando identificar e analisar problemas originados a partir das intera\u00e7\u00f5es entre esses componentes, em um ambiente de execu\u00e7\u00e3o com caracter\u00edsticas pr\u00f3ximas \u00e0quelas a serem utilizadas no ambiente operacional real.", 
+        "options": [
+                "Certo", 
+                "Errado"
+        ], 
+        "title": "TCU 2015 - AUDITOR FEDERAL DE CONTROLE EXTERNO - TECNOLOGIA DA INFORMA\u00c7\u00c3O"
 	},
 	"outros_testes/teste_integracao/q41.json":{
         "answer": 0, 

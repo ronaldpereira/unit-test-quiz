@@ -1,0 +1,8 @@
+{
+	"title": "TCU 2015 - AUDITOR FEDERAL DE CONTROLE EXTERNO - TECNOLOGIA DA INFORMAÇÃO",
+	"text": "O teste de integração consiste em construir gradualmente o sistema, por integração de seus componentes, e testar o sistema resultante, buscando identificar e analisar problemas originados a partir das interações entre esses componentes, em um ambiente de execução com características próximas àquelas a serem utilizadas no ambiente operacional real.",
+	"options": [
+  		"Certo",
+		"Errado"],
+	"answer": 1
+}

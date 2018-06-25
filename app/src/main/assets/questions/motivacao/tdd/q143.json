@@ -1,0 +1,8 @@
+{
+	"title": "STJ 2015 - TÉCNICO JUDICIÁRIO - TECNOLOGIA DA INFORMAÇÃO",
+	"text": "A execução de testes de unidade automatizados garante a inalterabilidade do comportamento do código.",
+	"options": [
+  		"Certo",
+		"Errado"],
+	"answer": 1
+}

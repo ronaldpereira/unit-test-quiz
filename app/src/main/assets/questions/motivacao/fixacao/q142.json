@@ -1,0 +1,11 @@
+{
+	"title": "TRE-PE 2016 - TÉCNICO JUDICIÁRIO - PROGRAMAÇÃO DE SISTEMAS",
+	"text": "A respeito dos testes de software realizados no ciclo de desenvolvimento de um sistema, assinale a opção correta.",
+	"options": [
+  		"Testes de estresse de um sistema são manualmente realizados durante o desenvolvimento da solução",
+		"Os testes de caixa preta são realizados somente pelos desenvolvedores e devem ser utilizados para validar os requisitos funcionais do sistema por meio dos testes de caso de uso",
+		"A automatização de testes restringe-se à atividade de implementação, com a criação de testes unitários que são executados ao final do processo de desenvolvimento",
+		"Os testes denominados caixa branca são frequentemente utilizados pelos analistas com o objetivo de testar os artefatos e as aderências das regras de negócio ao sistema",
+		"Os testes de aceitação das metodologias tradicionais não constituem uma atividade em separado na metodologia ágil XP"],
+	"answer": 4
+}
