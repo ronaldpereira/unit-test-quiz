@@ -1,6 +1,6 @@
 {
-  "title": "",
-  "text": "(STM/2018) Testes de regressão servem ao propósito de verificar se o sistema pode operar na carga necessária, fazendo-a regredir constantemente até que o comportamento de falha do sistema seja testado ou que defeitos sejam identificados.",
+  "title": "STM/2018",
+  "text": "Testes de regressão servem ao propósito de verificar se o sistema pode operar na carga necessária, fazendo-a regredir constantemente até que o comportamento de falha do sistema seja testado ou que defeitos sejam identificados.",
   "options": [
   	"Certo",
   	"Errado"],

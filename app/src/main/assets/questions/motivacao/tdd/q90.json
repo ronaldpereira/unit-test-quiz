@@ -1,6 +1,6 @@
 {
-  "title": "",
-  "text": "(TCE-SP/2014) No Desenvolvimento Orientado a Testes (TDD), os casos de teste que definem o recurso a ser implementado devem ser elaborados",
+  "title": "TCE-SP/2014",
+  "text": "No Desenvolvimento Orientado a Testes (TDD), os casos de teste que definem o recurso a ser implementado devem ser elaborados",
   "options": [
   	"assim que o código do teste estiver pronto.",
     "antes de o código do recurso ser desenvolvido.",

@@ -1,10 +1,10 @@
 {
   "title": "Funcab - SES-GO - Analista de Sistemas - 2010",
   "text": "No tocante aos testes de software, são testes normalmente de responsabilidade dos programadores que desenvolveram o componente, NÃO sendo delegados a uma equipe independente de teste os:",
-  "options": ["e aceitação e de unidade.",
-    "e módulo e de subsistema.",
-    "e subsistema e de sistema.",
-    "e sistema e de aceitação.",
-    "e unidade e de módulo."],
+  "options": ["de aceitação e de unidade.",
+    "de módulo e de subsistema.",
+    "de subsistema e de sistema.",
+    "de sistema e de aceitação.",
+    "de unidade e de módulo."],
   "answer": 4
 }

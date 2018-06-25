@@ -573,7 +573,7 @@
 	},
 	"motivacao/achar_o_teste/q89.json":{
         "answer": 0, 
-        "text": "(TRT-MG/2015) Um analista de TI est\u00e1 participando do desenvolvimento de um software orientado a objetos utilizando a plataforma Java. Na abordagem de desenvolvimento adotada, o c\u00f3digo \u00e9 desenvolvido de forma incremental, em conjunto com o teste para esse incremento, de forma que s\u00f3 se passa para o pr\u00f3ximo incremento quando o atual passar no teste. Como o c\u00f3digo \u00e9 desenvolvido em incrementos muito pequenos e s\u00e3o executados testes a cada vez que uma funcionalidade \u00e9 adicionada ou que o programa \u00e9 refatorado, foi necess\u00e1rio definir um ambiente de testes automatizados utilizando um framework popular que suporta o teste de programas Java. A abordagem de desenvolvimento adotada e o framework de suporte \u00e0 cria\u00e7\u00e3o de testes automatizados s\u00e3o, respectivamente,", 
+        "text": "Um analista de TI est\u00e1 participando do desenvolvimento de um software orientado a objetos utilizando a plataforma Java. Na abordagem de desenvolvimento adotada, o c\u00f3digo \u00e9 desenvolvido de forma incremental, em conjunto com o teste para esse incremento, de forma que s\u00f3 se passa para o pr\u00f3ximo incremento quando o atual passar no teste. Como o c\u00f3digo \u00e9 desenvolvido em incrementos muito pequenos e s\u00e3o executados testes a cada vez que uma funcionalidade \u00e9 adicionada ou que o programa \u00e9 refatorado, foi necess\u00e1rio definir um ambiente de testes automatizados utilizando um framework popular que suporta o teste de programas Java. A abordagem de desenvolvimento adotada e o framework de suporte \u00e0 cria\u00e7\u00e3o de testes automatizados s\u00e3o, respectivamente,", 
         "options": [
                 "Test-Driven Development e JUnit.", 
                 "Behavior-Driven Development e JTest.", 
@@ -581,7 +581,7 @@
                 "Test-Driven Development e Jenkins.", 
                 "Data-Driven Development and Test e JUnit."
         ], 
-        "title": ""
+        "title": "TRT-MG/2015"
 	},
 	"motivacao/cenarios/q109.json":{
         "answer": 0, 
@@ -601,9 +601,9 @@
         "options": [
                 "9, 10, 500, 501", 
                 "0, 455, 1000", 
-                "?1, 20, 490, 1010", 
-                "?10, 0, 455", 
-                "?32768, ?1024, 18, 455, 492, 1024, 32768"
+                "1, 20, 490, 1010", 
+                "10, 0, 455", 
+                "32768, 1024, 18, 455, 492, 1024, 32768"
         ], 
         "title": "CESGRANRIO - BACEN - Analsita do Banco Central - 2010"
 	},
@@ -656,11 +656,11 @@
         "answer": 4, 
         "text": "No tocante aos testes de software, s\u00e3o testes normalmente de responsabilidade dos programadores que desenvolveram o componente, N\u00c3O sendo delegados a uma equipe independente de teste os:", 
         "options": [
-                "e aceita\u00e7\u00e3o e de unidade.", 
-                "e m\u00f3dulo e de subsistema.", 
-                "e subsistema e de sistema.", 
-                "e sistema e de aceita\u00e7\u00e3o.", 
-                "e unidade e de m\u00f3dulo."
+                "de aceita\u00e7\u00e3o e de unidade.", 
+                "de m\u00f3dulo e de subsistema.", 
+                "de subsistema e de sistema.", 
+                "de sistema e de aceita\u00e7\u00e3o.", 
+                "de unidade e de m\u00f3dulo."
         ], 
         "title": "Funcab - SES-GO - Analista de Sistemas - 2010"
 	},
@@ -668,13 +668,13 @@
         "answer": 1, 
         "text": "O teste de software que projeta casos de testes derivados do conhecimento da estrutura e da implementa\u00e7\u00e3o do software \u00e9 conhecido por:", 
         "options": [
-                "teste sde releases", 
+                "teste de releases", 
                 "teste caixa-claro", 
                 "teste caixa-preta", 
                 "teste de aceita\u00e7\u00e3o", 
                 "teste de integra\u00e7\u00e3o"
         ], 
-        "title": "FGV - BADESCT - Analista de Sistemas - 2010"
+        "title": "FGV - BADESC - Analista de Sistemas - 2010"
 	},
 	"motivacao/fixacao/q129.json":{
         "answer": 1, 
@@ -710,11 +710,11 @@
         "answer": 4, 
         "text": "Os testes de software s\u00e3o verifica\u00e7\u00f5es realizadas com o objetivo de avaliar se o software atende \u00e0s necessidades especificadas ou identificar as diferen\u00e7as entre os resultados esperados e reais. Com rela\u00e7\u00e3o aos tipos de testes de software assinale a alternativa correta. ", 
         "options": [
-                "Os testes de caixa branca, ou testes funcionais, podem tamb\u00e9m testar 'fun\u00e7\u00f5es ausentes'.", 
+                "Os testes de caixa-branca, ou testes funcionais, podem tamb\u00e9m testar 'fun\u00e7\u00f5es ausentes'.", 
                 "Os testes em grande escala corrigem erros de desenho e falhas nos testes de programas.", 
                 "Os testes dos recursos funcionais do sistema t\u00eam a finalidade de fornecer uma medida sistem\u00e1tica dos recursos de desempenho do sistema e demonstrar a qualidade global do mesmo.", 
                 "Os testes de aceita\u00e7\u00e3o s\u00e3o frequentemente inclu\u00eddos na bateria dos testes de resist\u00eancia, e usam estrat\u00e9gia de processamento paralelo.", 
-                "Testes de caixa preta s\u00e3o independentes da l\u00f3gica de codifica\u00e7\u00e3o, mas s\u00e3o derivados das especifica\u00e7\u00f5es do programa ou componente."
+                "Testes de caixa-preta s\u00e3o independentes da l\u00f3gica de codifica\u00e7\u00e3o, mas s\u00e3o derivados das especifica\u00e7\u00f5es do programa ou componente."
         ], 
         "title": "FUNIVERSA - IPHAN- Analista - 2009"
 	},
@@ -735,9 +735,9 @@
         "text": "A respeito dos testes de software realizados no ciclo de desenvolvimento de um sistema, assinale a op\u00e7\u00e3o correta.", 
         "options": [
                 "Testes de estresse de um sistema s\u00e3o manualmente realizados durante o desenvolvimento da solu\u00e7\u00e3o", 
-                "Os testes de caixa preta s\u00e3o realizados somente pelos desenvolvedores e devem ser utilizados para validar os requisitos funcionais do sistema por meio dos testes de caso de uso", 
+                "Os testes de caixa-preta s\u00e3o realizados somente pelos desenvolvedores e devem ser utilizados para validar os requisitos funcionais do sistema por meio dos testes de caso de uso", 
                 "A automatiza\u00e7\u00e3o de testes restringe-se \u00e0 atividade de implementa\u00e7\u00e3o, com a cria\u00e7\u00e3o de testes unit\u00e1rios que s\u00e3o executados ao final do processo de desenvolvimento", 
-                "Os testes denominados caixa branca s\u00e3o frequentemente utilizados pelos analistas com o objetivo de testar os artefatos e as ader\u00eancias das regras de neg\u00f3cio ao sistema", 
+                "Os testes denominados caixa-branca s\u00e3o frequentemente utilizados pelos analistas com o objetivo de testar os artefatos e as ader\u00eancias das regras de neg\u00f3cio ao sistema", 
                 "Os testes de aceita\u00e7\u00e3o das metodologias tradicionais n\u00e3o constituem uma atividade em separado na metodologia \u00e1gil XP"
         ], 
         "title": "TRE-PE 2016 - T\u00c9CNICO JUDICI\u00c1RIO - PROGRAMA\u00c7\u00c3O DE SISTEMAS"
@@ -832,16 +832,16 @@
 	},
 	"motivacao/tdd/q84.json":{
         "answer": 1, 
-        "text": "(STM/2018) O TDD (test driven development) parte de um caso de teste que caracteriza uma melhoria desejada ou nova funcionalidade a ser desenvolvida, de modo a confirmar o comportamento correto e possibilitar a evolu\u00e7\u00e3o ou refatora\u00e7\u00e3o do c\u00f3digo.", 
+        "text": "O TDD (test driven development) parte de um caso de teste que caracteriza uma melhoria desejada ou nova funcionalidade a ser desenvolvida, de modo a confirmar o comportamento correto e possibilitar a evolu\u00e7\u00e3o ou refatora\u00e7\u00e3o do c\u00f3digo.", 
         "options": [
                 "Certo", 
                 "Errado"
         ], 
-        "title": ""
+        "title": "STM/2018"
 	},
 	"motivacao/tdd/q85.json":{
         "answer": 4, 
-        "text": "(TRE-RS/2015) Projeto para o desenvolvimento de software que utilize TDD deve:", 
+        "text": "Projeto para o desenvolvimento de software que utilize TDD deve:", 
         "options": [
                 "realizar sprints a cada quinzena", 
                 "desenvolver pequenos releases", 
@@ -849,41 +849,41 @@
                 "apresentar linguagem de programa\u00e7\u00e3o estruturada", 
                 "recomendar a prepara\u00e7\u00e3o dos testes para que, posteriormente, seja desenvolvido o c\u00f3digo"
         ], 
-        "title": ""
+        "title": "TRE-RS/2015"
 	},
 	"motivacao/tdd/q86.json":{
         "answer": 3, 
-        "text": "(TRE-PI/2016) O TDD (test driven development):", 
+        "text": "O TDD (test driven development):", 
         "options": [
                 "apresenta como vantagem a leitura das regras de neg\u00f3cio a partir dos testes, e, como desvantagem, a necessidade de mais linhas de c\u00f3digos que a abordagem tradicional, o que gera um c\u00f3digo adicional", 
                 "impede que seja aplicada a pr\u00e1tica de programa\u00e7\u00e3o em pares, que \u00e9 substitu\u00edda pela intera\u00e7\u00e3o entre analista de teste, testador e programador", 
-                "\u00e9 um conjunto de t\u00e9cnicas associadas ao eXtremme Programing (XP) e a m\u00e9todos \u00e1geis, sendo, contudo, incompat\u00edvel com o Refactoring, haja vista o teste ser escrito antes da codifica\u00e7\u00e3o", 
+                "\u00e9 um conjunto de t\u00e9cnicas associadas ao eXtreme Programming (XP) e a m\u00e9todos \u00e1geis, sendo, contudo, incompat\u00edvel com o Refactoring, haja vista o teste ser escrito antes da codifica\u00e7\u00e3o", 
                 "refere-se a uma t\u00e9cnica de programa\u00e7\u00e3o cujo principal objetivo \u00e9 escrever um c\u00f3digo funcional limpo, a partir de um teste que tenha falhado", 
                 "refere-se a uma metodologia de testes em que se devem testar condi\u00e7\u00f5es, loops e opera\u00e7\u00f5es; no entanto, por quest\u00e3o de simplicidade, n\u00e3o devem ser testados polimorfismos"
         ], 
-        "title": ""
+        "title": "TRE-PI/2016"
 	},
 	"motivacao/tdd/q87.json":{
         "answer": 1, 
-        "text": "(STJ/2015) O desenvolvimento orientado a testes \u00e9 uma metodologia de desenvolvimento de casos de teste de classes de funcionamento de aplica\u00e7\u00f5es para dispositivos m\u00f3veis com \u00eanfase nas falhas de comunica\u00e7\u00e3o.", 
+        "text": "O desenvolvimento orientado a testes \u00e9 uma metodologia de desenvolvimento de casos de teste de classes de funcionamento de aplica\u00e7\u00f5es para dispositivos m\u00f3veis com \u00eanfase nas falhas de comunica\u00e7\u00e3o.", 
         "options": [
                 "Certo", 
                 "Errado"
         ], 
-        "title": ""
+        "title": "STJ/2015"
 	},
 	"motivacao/tdd/q88.json":{
         "answer": 1, 
-        "text": "(STJ/2015) Um dos passos executados no ciclo de atividades do processo TDD \u00e9 a cria\u00e7\u00e3o de novos testes para as falhas encontradas no c\u00f3digo original, sem altera\u00e7\u00e3o deste.", 
+        "text": "Um dos passos executados no ciclo de atividades do processo TDD \u00e9 a cria\u00e7\u00e3o de novos testes para as falhas encontradas no c\u00f3digo original, sem altera\u00e7\u00e3o deste.", 
         "options": [
                 "Certo", 
                 "Errado"
         ], 
-        "title": ""
+        "title": "STJ/2015"
 	},
 	"motivacao/tdd/q90.json":{
         "answer": 1, 
-        "text": "(TCE-SP/2014) No Desenvolvimento Orientado a Testes (TDD), os casos de teste que definem o recurso a ser implementado devem ser elaborados", 
+        "text": "No Desenvolvimento Orientado a Testes (TDD), os casos de teste que definem o recurso a ser implementado devem ser elaborados", 
         "options": [
                 "assim que o c\u00f3digo do teste estiver pronto.", 
                 "antes de o c\u00f3digo do recurso ser desenvolvido.", 
@@ -891,34 +891,34 @@
                 "simultaneamente com o desenvolvimento do c\u00f3digo do recurso.", 
                 "somente se o c\u00f3digo do recurso apresentar erros."
         ], 
-        "title": ""
+        "title": "TCE-SP/2014"
 	},
 	"motivacao/tdd/q91.json":{
         "answer": 1, 
-        "text": "(SERPRO/2013) Usando-se o TDD, as funcionalidades devem estar completas e da forma como ser\u00e3o apresentadas aos seus usu\u00e1rios para que possam ser testadas e consideradas corretas.", 
+        "text": "Usando-se o TDD, as funcionalidades devem estar completas e da forma como ser\u00e3o apresentadas aos seus usu\u00e1rios para que possam ser testadas e consideradas corretas.", 
         "options": [
                 "Certo", 
                 "Errado"
         ], 
-        "title": ""
+        "title": "SERPRO/2013"
 	},
 	"motivacao/tdd/q92.json":{
         "answer": 1, 
-        "text": "(TC-DF/2014) No TDD, o refatoramento do c\u00f3digo deve ser realizado antes de se escrever a aplica\u00e7\u00e3o que deve ser testada.", 
+        "text": "No TDD, o refatoramento do c\u00f3digo deve ser realizado antes de se escrever a aplica\u00e7\u00e3o que deve ser testada.", 
         "options": [
                 "Certo", 
                 "Errado"
         ], 
-        "title": ""
+        "title": "TC-DF/2014"
 	},
 	"motivacao/tdd/q93.json":{
         "answer": 0, 
-        "text": "(MPU/2013) Na metodologia TDD, ou desenvolvimento orientado a testes, cada nova funcionalidade inicia com a cria\u00e7\u00e3o de um teste, cujo planejamento permite a identifica\u00e7\u00e3o dos itens e funcionalidades que dever\u00e3o ser testados, quem s\u00e3o os respons\u00e1veis e quais os riscos envolvidos.", 
+        "text": "Na metodologia TDD, ou desenvolvimento orientado a testes, cada nova funcionalidade inicia com a cria\u00e7\u00e3o de um teste, cujo planejamento permite a identifica\u00e7\u00e3o dos itens e funcionalidades que dever\u00e3o ser testados, quem s\u00e3o os respons\u00e1veis e quais os riscos envolvidos.", 
         "options": [
                 "Certo", 
                 "Errado"
         ], 
-        "title": ""
+        "title": "MPU/2013"
 	},
 	"motivacao/testes_no_desenvolvimento/q104.json":{
         "answer": 1, 
@@ -958,7 +958,7 @@
         "text": " Durante o processo de desenvolvimento de software, \u00e9 necess\u00e1rio garantir que o software em desenvolvimento esteja satisfazendo os requisitos. Isto \u00e9 realizado atrav\u00e9s de processos de teste do software. Selecione das seguintes alternativas, a CORRETA.", 
         "options": [
                 "Os testes de software s\u00e3o feitos comparando se o n\u00famero de linhas de c\u00f3digo aumentou desde a \u00faltima revis\u00e3o.", 
-                "Os testes de software do tipo caixa preta verificam se o c\u00f3digo est\u00e1 bem documentado e os nomes das vari\u00e1veis declaradas s\u00e3o claros.", 
+                "Os testes de software do tipo caixa-preta verificam se o c\u00f3digo est\u00e1 bem documentado e os nomes das vari\u00e1veis declaradas s\u00e3o claros.", 
                 "Os testes de software funcionais verificam a velocidade de conex\u00e3o do sistema com a base de dados.", 
                 "Os testes n\u00e3o funcionais verificam se o c\u00f3digo fonte n\u00e3o tem erro de sintaxe.", 
                 "Os testes unit\u00e1rios verificam o funcionamento de uma se\u00e7\u00e3o espec\u00edfica de c\u00f3digo, tais como uma fun\u00e7\u00e3o ou uma classe."
@@ -990,7 +990,7 @@
 	},
 	"motivacao/testes_no_desenvolvimento/q150.json":{
         "answer": 4, 
-        "text": "Um dos tipos de teste de software \u00e9 o teste de desempenho. Um teste desse tipo.", 
+        "text": "Um dos tipos de teste de software \u00e9 o teste de desempenho. Um teste desse tipo:", 
         "options": [
                 "corresponde a medir os tempos de processamento com falhas no hardware do sistema computacional", 
                 "n\u00e3o pode ser realizado com o sistema j\u00e1 em opera\u00e7\u00e3o", 
@@ -1086,12 +1086,12 @@
 	},
 	"outros_testes/teste_alfa_beta/q94.json":{
         "answer": 1, 
-        "text": "(ANTT/2013) O teste de aceita\u00e7\u00e3o pode utilizar um processo chamado de teste alfa e beta, sendo conduzido por desenvolvedores e podendo contar com a participa\u00e7\u00e3o do usu\u00e1rio. O teste alfa \u00e9 realizado em ambiente real e o beta em ambiente controlado.", 
+        "text": "O teste de aceita\u00e7\u00e3o pode utilizar um processo chamado de teste alfa e beta, sendo conduzido por desenvolvedores e podendo contar com a participa\u00e7\u00e3o do usu\u00e1rio. O teste alfa \u00e9 realizado em ambiente real e o beta em ambiente controlado.", 
         "options": [
                 "Certo", 
                 "Errado"
         ], 
-        "title": ""
+        "title": "ANTT/2013"
 	},
 	"outros_testes/teste_automatizados/q1.json":{
         "answer": 0, 
@@ -1368,16 +1368,16 @@
 	},
 	"outros_testes/teste_caixa_preta_ branca/q95.json":{
         "answer": 1, 
-        "text": "(TCE-RN/2015) Os m\u00e9todos de teste de caixa preta concentram-se nos requisitos n\u00e3o funcionais do software e representam uma alternativa para os m\u00e9todos de caixa branca.", 
+        "text": "Os m\u00e9todos de teste de caixa preta concentram-se nos requisitos n\u00e3o funcionais do software e representam uma alternativa para os m\u00e9todos de caixa branca.", 
         "options": [
                 "Certo", 
                 "Errado"
         ], 
-        "title": ""
+        "title": "TCE-RN/2015"
 	},
 	"outros_testes/teste_caixa_preta_ branca/q96.json":{
         "answer": 0, 
-        "text": "(SP-URBANISMO/2014) Dentre as t\u00e9cnicas de teste de software, h\u00e1 os testes denominados de caixa preta e aqueles denominados de caixa branca. Testes do tipo caixa", 
+        "text": "Dentre as t\u00e9cnicas de teste de software, h\u00e1 os testes denominados de caixa preta e aqueles denominados de caixa branca. Testes do tipo caixa", 
         "options": [
                 "preta visam exercitar as interfaces do software sob teste.", 
                 "preta e branca visam detectar os mesmos tipos de erros existentes no software sob teste.", 
@@ -1385,20 +1385,20 @@
                 "branca tamb\u00e9m s\u00e3o chamados de testes comportamentais.", 
                 "branca s\u00e3o realizados apenas ap\u00f3s o software estar completamente integrado."
         ], 
-        "title": ""
+        "title": "SP-URBANISMO/2014"
 	},
 	"outros_testes/teste_caixa_preta_ branca/q97.json":{
         "answer": 1, 
-        "text": "(ABIN/2010) Nos testes de caixa branca, o c\u00f3digo-fonte do programa \u00e9 usado para identificar testes de defeitos potenciais, particularmente no processo de valida\u00e7\u00e3o, o qual demonstra se um programa atende a sua especifica\u00e7\u00e3o.", 
+        "text": "Nos testes de caixa branca, o c\u00f3digo-fonte do programa \u00e9 usado para identificar testes de defeitos potenciais, particularmente no processo de valida\u00e7\u00e3o, o qual demonstra se um programa atende a sua especifica\u00e7\u00e3o.", 
         "options": [
                 "Certo", 
                 "Errado"
         ], 
-        "title": ""
+        "title": "ABIN/2010"
 	},
 	"outros_testes/teste_caixa_preta_ branca/q98.json":{
         "answer": 3, 
-        "text": "(CMB/2012) S\u00e3o t\u00e9cnicas de teste de software classificadas como Teste Caixa-Branca, EXCETO o teste de", 
+        "text": "S\u00e3o t\u00e9cnicas de teste de software classificadas como Teste Caixa-Branca, EXCETO o teste de", 
         "options": [
                 "Ciclo", 
                 "Condi\u00e7\u00e3o", 
@@ -1406,7 +1406,7 @@
                 "Matriz Ortogonal", 
                 "Caminhos L\u00f3gicos"
         ], 
-        "title": ""
+        "title": "CMB/2012"
 	},
 	"outros_testes/teste_caminho_basico/q59.json":{
         "answer": 3, 
@@ -1536,15 +1536,15 @@
 	},
 	"outros_testes/teste_regressao/q100.json":{
         "answer": 2, 
-        "text": "(SEFAZ-PI/2015) O teste \u00e9 fundamental quando se deseja atingir uma qualidade m\u00ednima no desenvolvimento de um software. Dentre os tipos de testes existentes, o Teste de Regress\u00e3o \u00e9 aquele que", 
+        "text": "O teste \u00e9 fundamental quando se deseja atingir uma qualidade m\u00ednima no desenvolvimento de um software. Dentre os tipos de testes existentes, o Teste de Regress\u00e3o \u00e9 aquele que", 
         "options": [
                 "tem como foco as menores unidades codificadas do software. ", 
-                "\u00e9 usado para validar se a implementa\u00e7\u00e3o est\u00e1 de acordo com  a especifica\u00e7\u00e3o.", 
+                "\u00e9 usado para validar se a implementa\u00e7\u00e3o est\u00e1 de acordo com a especifica\u00e7\u00e3o.", 
                 "verifica se as altera\u00e7\u00f5es/inclus\u00f5es de c\u00f3digo est\u00e3o corretas e n\u00e3o afetam o que j\u00e1 estava funcionando.", 
                 "testa os conhecidos requisitos n\u00e3o-funcionais.", 
                 "analisa se as partes, quando colocadas para trabalhar juntas, n\u00e3o conduzem a erros."
         ], 
-        "title": ""
+        "title": "SEFAZ-PI/2015"
 	},
 	"outros_testes/teste_regressao/q103.json":{
         "answer": 0, 
@@ -1575,12 +1575,12 @@
 	},
 	"outros_testes/teste_regressao/q99.json":{
         "answer": 1, 
-        "text": "(STM/2018) Testes de regress\u00e3o servem ao prop\u00f3sito de verificar se o sistema pode operar na carga necess\u00e1ria, fazendo-a regredir constantemente at\u00e9 que o comportamento de falha do sistema seja testado ou que defeitos sejam identificados.", 
+        "text": "Testes de regress\u00e3o servem ao prop\u00f3sito de verificar se o sistema pode operar na carga necess\u00e1ria, fazendo-a regredir constantemente at\u00e9 que o comportamento de falha do sistema seja testado ou que defeitos sejam identificados.", 
         "options": [
                 "Certo", 
                 "Errado"
         ], 
-        "title": ""
+        "title": "STM/2018"
 	},
 	"outros_testes/teste_validacao_e_verificacao/q42.json":{
         "answer": 0, 

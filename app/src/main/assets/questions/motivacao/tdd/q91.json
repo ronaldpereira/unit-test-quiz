@@ -1,6 +1,6 @@
 {
-  "title": "",
-  "text": "(SERPRO/2013) Usando-se o TDD, as funcionalidades devem estar completas e da forma como serão apresentadas aos seus usuários para que possam ser testadas e consideradas corretas.",
+  "title": "SERPRO/2013",
+  "text": "Usando-se o TDD, as funcionalidades devem estar completas e da forma como serão apresentadas aos seus usuários para que possam ser testadas e consideradas corretas.",
   "options": [
   	"Certo",
   	"Errado"],
