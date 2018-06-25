@@ -1,0 +1,10 @@
+{
+  "title": "FCC - TRT - Analista Judiciário - 2010",
+  "text": "No contexto da estratégia para o teste de um projeto, os estágios de teste desempenham um papel importante. O teste que é aplicado a componentes do modelo de implementação para verificar se os fluxos de controle e de dados estão cobertos e funcionam conforme o esperado, é o teste",
+  "options": ["do desenvolvedor",
+    "independente",
+    "de integração",
+    "de sistema",
+    "unitário"],
+  "answer": 4
+}

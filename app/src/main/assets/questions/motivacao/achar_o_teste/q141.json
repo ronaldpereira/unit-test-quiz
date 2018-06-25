@@ -1,0 +1,11 @@
+{
+	"title": "BRDE 2015 - ANÁLISE DE SISTEMAS - DESENVOLVIMENTO DE SISTEMAS",
+	"text": "Qual tipo de teste é usado para testar especificamente o comportamento de um sistema sob demanda de recursos em quantidade, frequência ou volume anormais?",
+	"options": [
+  		"Teste de Recuperação",
+		"Teste de Segurança",
+		"Teste de Fluxo de Dados",
+		"Teste de Integração",
+		"Teste de Estresse"],
+	"answer": 4
+}

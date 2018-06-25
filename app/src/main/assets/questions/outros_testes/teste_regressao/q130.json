@@ -1,0 +1,7 @@
+{
+  "title": "CESPE - TRE-BA - Técnico Judiciário - 2010",
+  "text": " Falha é o resultado de um ou mais defeitos em algum aspecto do sistema. No teste de regressão, caso um novo componente ou as suas alterações, quando acrescentados aos componentes restantes do sistema, resultem em novos defeitos em componentes inalterados, então considera-se que o sistema regrediu.",
+  "options": ["Certo",
+    "Errado"],
+  "answer": 0
+}

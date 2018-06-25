@@ -1,0 +1,10 @@
+{
+  "title": "CESGRANRIO - EPE - Analista de Gestão Corporativa - 2010",
+  "text": "Um novo sistema de informação interno de uma empresa está sendo testado por um grupo restrito de usuários, fora do ambiente dos desenvolvedores. Isso caracteriza o teste",
+  "options": ["de unidade",
+    "de usabilidade",
+    "alfa",
+    "beta",
+    "de stress"],
+  "answer": 3
+}

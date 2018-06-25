@@ -1,0 +1,10 @@
+{
+  "title": "CETAP - AL-PR - Analista de Sistemas - 2010",
+  "text": " Durante o processo de desenvolvimento de software, é necessário garantir que o software em desenvolvimento esteja satisfazendo os requisitos. Isto é realizado através de processos de teste do software. Selecione das seguintes alternativas, a CORRETA.",
+  "options": ["Os testes de software são feitos comparando se o número de linhas de código aumentou desde a última revisão.",
+    "Os testes de software do tipo caixa-preta verificam se o código está bem documentado e os nomes das variáveis declaradas são claros.",
+    "Os testes de software funcionais verificam a velocidade de conexão do sistema com a base de dados.",
+    "Os testes não funcionais verificam se o código fonte não tem erro de sintaxe.",
+    "Os testes unitários verificam o funcionamento de uma seção específica de código, tais como uma função ou uma classe."],
+  "answer": 4
+}

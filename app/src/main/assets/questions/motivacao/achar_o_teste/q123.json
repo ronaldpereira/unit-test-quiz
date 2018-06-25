@@ -1,0 +1,10 @@
+{
+  "title": "CETAP - DETRAN-PR - Analista de Sistemas - 2010",
+  "text": "Os testes são indicadores da qualidade do software desenvolvido. Das alternativas seguintes, o teste que tem por objetivo verificar se um dado algoritmo, subrotinas ou mesmo pequenos trechos de código estão funcionando corretamente, é:",
+  "options": ["unidade",
+    "integração",
+    "aceitação",
+    "de tempo real",
+    "de operação"],
+  "answer": 0
+}

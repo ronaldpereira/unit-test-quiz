@@ -1,6 +1,6 @@
 {
-  "title": "",
-  "text": "(ANTT/2013) O teste de aceitação pode utilizar um processo chamado de teste alfa e beta, sendo conduzido por desenvolvedores e podendo contar com a participação do usuário. O teste alfa é realizado em ambiente real e o beta em ambiente controlado.",
+  "title": "ANTT/2013",
+  "text": "O teste de aceitação pode utilizar um processo chamado de teste alfa e beta, sendo conduzido por desenvolvedores e podendo contar com a participação do usuário. O teste alfa é realizado em ambiente real e o beta em ambiente controlado.",
   "options": [
   	"Certo",
   	"Errado"],

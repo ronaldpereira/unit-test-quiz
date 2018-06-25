@@ -1,0 +1,7 @@
+{
+  "title": "CESPE - TRE-BA - Técnico Judiciário - 2010",
+  "text": " O teste de integração, a exemplo do teste caixa-branca, focaliza o esforço de validação na menor unidade de projeto do software e, com o uso de técnicas de componentização, caminhos de controle relevantes são testados para descobrir erros dentro dos limites do componente.",
+  "options": ["Certo",
+    "Errado"],
+  "answer": 1
+}

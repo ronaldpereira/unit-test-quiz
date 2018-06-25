@@ -1,0 +1,10 @@
+{
+  "title": "CESGRANRIO - Petrobras - Analista de Sistemas Júnior - 2010",
+  "text": "Testar é uma disciplina de suma importância para a engenharia de software. A literatura divide os tipos de testes em duas grandes categorias: teste de caixa preta e teste de caixa branca. Sobre esta classificação, pode-se afirmar que\nI - testes  de interfaces  são  classificados  como  de caixa branca;\nII - testes de caixa preta são também chamados de teste comportamental, onde o foco são os requisitos funcionais do software;\nIII - testes de caixa preta são complementares aos testes de caixa branca, uma vez que contemplam diferentes classes de erros.\nÉ correto o que se afirma em",
+  "options": ["I, apenas",
+    "I e II, apenas",
+    "I e III, apenas",
+    "II e III, apenas",
+    "I, II e III"],
+  "answer": 3
+}

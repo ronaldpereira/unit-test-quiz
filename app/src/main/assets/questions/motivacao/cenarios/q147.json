@@ -1,0 +1,11 @@
+{
+	"title": "TRT - 3ª REGIÃO (MG) 2015 - ANALISTA JUDICIÁRIO - TECNOLOGIA DA INFORMAÇÃO",
+	"text": "Um profissional está trabalhando no processo de testes de desenvolvimento de um software orientado a objetos. Inicialmente, realizou o teste das funcionalidades dos objetos ou métodos das classes individualmente. Em seguida, integrou várias unidades individuais criando elementos compostos e testou as interfaces desses elementos. Para concluir a bateria de testes, integrou todos os componentes do software e testou a integração entre eles como um todo. Os testes realizados pelo profissional foram testes",
+	"options": [
+  		"de unidade, de integração e de aceitação",
+		"funcionais, de integração e de aceitação",
+		"alfa, beta e de sistema",
+		"de unidade, de componentes e de sistema",
+		"funcionais, de componentes e de integração"],
+	"answer": 3
+}

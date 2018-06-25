@@ -1,6 +1,6 @@
 {
-  "title": "",
-  "text": "(TRT-MG/2015) Um analista de TI está participando do desenvolvimento de um software orientado a objetos utilizando a plataforma Java. Na abordagem de desenvolvimento adotada, o código é desenvolvido de forma incremental, em conjunto com o teste para esse incremento, de forma que só se passa para o próximo incremento quando o atual passar no teste. Como o código é desenvolvido em incrementos muito pequenos e são executados testes a cada vez que uma funcionalidade é adicionada ou que o programa é refatorado, foi necessário definir um ambiente de testes automatizados utilizando um framework popular que suporta o teste de programas Java. A abordagem de desenvolvimento adotada e o framework de suporte à criação de testes automatizados são, respectivamente,",
+  "title": "TRT-MG/2015",
+  "text": "Um analista de TI está participando do desenvolvimento de um software orientado a objetos utilizando a plataforma Java. Na abordagem de desenvolvimento adotada, o código é desenvolvido de forma incremental, em conjunto com o teste para esse incremento, de forma que só se passa para o próximo incremento quando o atual passar no teste. Como o código é desenvolvido em incrementos muito pequenos e são executados testes a cada vez que uma funcionalidade é adicionada ou que o programa é refatorado, foi necessário definir um ambiente de testes automatizados utilizando um framework popular que suporta o teste de programas Java. A abordagem de desenvolvimento adotada e o framework de suporte à criação de testes automatizados são, respectivamente,",
   "options": [
   	"Test-Driven Development e JUnit.",
     "Behavior-Driven Development e JTest.",

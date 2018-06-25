@@ -1,0 +1,10 @@
+{
+  "title": "Quadrix - 2012 - DATAPREV - Analista de Tecnologia da Informação - Análise de Negócios",
+  "text": "O método de testes estruturais de software NÃO tem como objetivo garantir que:",
+  "options": ["Os caminhos independentes de um módulo sejam exercitados ao menos uma vez.",
+				"As decisões lógicas sejam testadas em seus lados verdadeiro e falso.",
+				"Os ciclos sejam exercitados em seus limites e dentro dos intervalos operacionais.",
+				"As estruturas de dados internas sejam testadas e validadas ao nível de componente.",
+				"Os erros de interface sejam identificados no contexto dos requisitos funcionais."],
+  "answer": 4
+}

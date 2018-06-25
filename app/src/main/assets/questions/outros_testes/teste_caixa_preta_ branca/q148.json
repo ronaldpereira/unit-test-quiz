@@ -1,0 +1,11 @@
+{
+	"title": "TCE-RS 2014 - AUDITOR PÚBLICO EXTERNO - TÉCNICO EM PROCESSAMENTO DE DADOS",
+	"text": "Os testes de software devem exibir um conjunto de características que atinja o objetivo de encontrar a maioria dos erros com o menor esforço. Dentre os diferentes tipos de teste estão os testes de caixa preta e de caixa branca. Sobre estes testes, é correto afirmar:",
+	"options": [
+  		"A técnica denominada particionamento de equivalência é um tipo de teste classificado como sendo de caixa branca",
+		"Para a elaboração de testes do tipo caixa branca é necessário conhecer a estrutura interna dos programas sob teste",
+		"A técnica denominada caminhos independentes é um tipo de teste classificado como sendo de caixa preta",
+		"As técnicas de teste de caixa branca aplicam-se apenas a software de pequeno porte",
+		"As técnicas de teste de caixa preta aplicam-se apenas a software desenvolvido com linguagens orientadas a objeto"],
+	"answer": 1
+}

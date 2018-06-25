@@ -1,0 +1,10 @@
+{
+  "title": "CESPE- TRE-MT - Programação de sistemas - 2010",
+  "text": "Com referência a testes de software, assinale a opção correta.",
+  "options": ["Testes de regressão são realizados somente durante a manutenção do software.",
+    "O teste de integração deve ser realizado logo após os testes individuais de unidades, obrigatoriamente por equipes diferentes da equipe de desenvolvimento.",
+    "O teste de unidade tem foco na menor unidade de um sistema, um programa. Testes em funções, procedimentos ou métodos não são considerados testes de unidade.",
+    "O teste alfa é conduzido pelo cliente em seu ambiente de uso final.",
+    "Testes de sistema não podem explorar requisitos não funcionais."],
+  "answer": 0
+}

@@ -1,6 +1,6 @@
 {
-  "title": "",
-  "text": "(TC-DF/2014) No TDD, o refatoramento do código deve ser realizado antes de se escrever a aplicação que deve ser testada.",
+  "title": "TC-DF/2014",
+  "text": "No TDD, o refatoramento do código deve ser realizado antes de se escrever a aplicação que deve ser testada.",
   "options": [
   	"Certo",
   	"Errado"],

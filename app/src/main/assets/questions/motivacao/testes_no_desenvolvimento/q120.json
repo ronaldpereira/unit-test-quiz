@@ -1,0 +1,10 @@
+{
+  "title": "CESGRANRIO - Petrobras - Analista de Sistemas Júnior - 2010",
+  "text": "Uma das principais atividades do processo de teste de um ciclo de vida de um projeto qualquer é",
+  "options": ["projetar testes que tratem da especificação de procedimentos externos ao computador, tais como: captação das informações, identificação das partes interessadas e distribuição das saídas.",
+    "projetar o processo de teste criando casos de teste, rotinas de teste e, eventualmente, desenvolvendo programas que fazem o teste de forma automática.",
+    "analisar e definir testes através da manipulação de ferramentas de processos usadas especialmente para obtenção de requisitos de teste de software, tais como: CMMI, BPM e ISO 9001:2000.",
+    "produzir testes e o manual de especificação do uso do sistema que é utilizado para ensinar o usuário a manipular o produto final do software.",
+    "testar as unidade de software na fase de operação e manutenção do sistema e utilizar os resultados como métricas para eventuais ajustes em projetos anteriores."],
+  "answer": 2
+}

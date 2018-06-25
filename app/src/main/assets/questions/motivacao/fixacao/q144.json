@@ -1,0 +1,8 @@
+{
+	"title": "TCU 2015 - AUDITOR FEDERAL DE CONTROLE EXTERNO - TECNOLOGIA DA INFORMAÇÃO",
+	"text": "Os casos de testes são especificações acerca das entradas para o teste e da saída esperada e englobam, também, uma declaração do que está sendo testado. Devido ao tamanho do espaço de possibilidades de teste, a geração automática exaustiva de casos de testes que exploram todas as entradas e saídas para qualquer configuração de teste é impossível ou computacionalmente intratável.",
+	"options": [
+  		"Certo",
+		"Errado"],
+	"answer": 0
+}
