@@ -1,0 +1,9 @@
+{
+    "title": "Com relação a testes funcionais e testes de unidades, julgue o  próximo  item.",
+    "text": "No teste funcional, dá-se enfoque ao real atendimento de requisitos funcionais e não funcionais, considerando-se, nesse momento, o funcionamento do sistema, e não o ponto de vista do usuário.",
+    "options": [
+        "Certo",
+        "Errado"
+    ],
+    "answer": 1
+}

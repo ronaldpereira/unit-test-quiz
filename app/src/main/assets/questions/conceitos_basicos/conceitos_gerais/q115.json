@@ -1,0 +1,12 @@
+{
+    "title": "",
+    "text": "No que se refere a testes de software, é correto afirmar que ",
+    "options": [
+        "o teste de operação é a fase onde é testada a ergonomia da interface de uso do software.",
+        "o teste da caixa preta (teste funcional), baseia-se em analisar os arquivos de log do sistema procurando por mensagens de funcionamento inconsistente.",
+        "um teste bem sucedido é um teste que não encontra nenhum erro no software.",
+        "o teste da caixa branca (teste estrutural), baseia-se em testar as estruturas do código fonte, como comandos condicionais e de repetição.",
+        "um caso de teste é uma categoria de possíveis resultados na execução de testes."
+    ],
+    "answer": 3
+}

@@ -1,0 +1,9 @@
+{
+    "title": "Em relação aos tipos de teste de software, julgue o  item  subsequente.",
+    "text": "Se um software já testado receber modificações e, após isso, somente essas modificações forem testadas, a aplicação do teste de regressão a esse software testará inclusive as partes que não tenham sido modificadas.",
+    "options": [
+        "Certo",
+        "Errado"
+    ],
+    "answer": 0
+}
