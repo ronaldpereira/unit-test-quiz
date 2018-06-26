@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import dcc.ufmg.br.quizdetestesunidade.R;
 
-public class FinishingModule extends AppCompatActivity {
+public class FinishingModuleActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
