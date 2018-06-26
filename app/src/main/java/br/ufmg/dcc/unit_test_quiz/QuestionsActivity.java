@@ -60,7 +60,6 @@ public class QuestionsActivity extends AppCompatActivity {
         Database.QuestionsData questionsData = Database.loadQuestionsData(this, questionsPath);
 
         if (questionsData == null) {
-
             answers = new ArrayList<>();
             hints = new ArrayList<>();
             for (int i = 0; i < questions.size(); i++) {
@@ -73,7 +72,6 @@ public class QuestionsActivity extends AppCompatActivity {
             hints = questionsData.hints;
 
         }
-
 
         currentQuestion = 0;
 
@@ -278,7 +276,7 @@ public class QuestionsActivity extends AppCompatActivity {
             }
         }
         if (answered != questions.size()) return;
-        Intent intent = new Intent(QuestionsActivity.this, FinishingModule.class);
+        Intent intent = new Intent(QuestionsActivity.this, FinishingModuleActivity.class);
         intent.putExtra(CORRECT_QUESTIONS, correct);
         intent.putExtra(ANSWERED_QUESTIONS, answered);
         startActivity(intent);
