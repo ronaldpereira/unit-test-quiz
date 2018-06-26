@@ -22,11 +22,13 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 public class ModulesActivity extends AppCompatActivity {
+
+
+    private ListView listView;
+
     public enum ItemType {
         MODULE, ACTIVITY
     }
@@ -73,6 +75,9 @@ public class ModulesActivity extends AppCompatActivity {
 
             assert item != null;
 
+            Double p = progress.get(item.questionsFilePath);
+            if (p == null) p = 0.0;
+
             if (item.type == ItemType.MODULE) {
                 convertView = LayoutInflater.from(getContext()).inflate(
                         R.layout.module_list_item,
@@ -81,18 +86,32 @@ public class ModulesActivity extends AppCompatActivity {
 
                 convertView.setClickable(false);
                 convertView.setOnClickListener(null);
+                ((TextView) (convertView.findViewById(R.id.text1))).setText(item.text);
             } else {
                 convertView = LayoutInflater.from(getContext()).inflate(
                         R.layout.activities_list_item,
                         parent, false
                 );
+
+                ((TextView) (convertView.findViewById(R.id.text1))).setText(item.text);
+
+                ((TextView) (convertView.findViewById(R.id.text2))).setText(String.format(Locale.getDefault(), "%.2f%%", 100 * p));
             }
 
 
-            ((TextView) convertView).setText(item.text);
 
             return convertView;
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        progress = Database.getProgress(this);
+
+        if (listView != null)
+            listView.invalidateViews();
     }
 
     private ArrayList<ListItem> readActivities() {
@@ -139,6 +158,7 @@ public class ModulesActivity extends AppCompatActivity {
 
         return results;
     }
+    private HashMap<String, Double> progress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -147,7 +167,9 @@ public class ModulesActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        ListView listView = (ListView) findViewById(R.id.activities_list_view);
+        progress = Database.getProgress(this);
+
+        listView = (ListView) findViewById(R.id.activities_list_view);
 
         final ArrayList<ListItem> items = readActivities();
         ItemAdapter adapter = new ItemAdapter(this, items);

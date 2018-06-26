@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.*;
 import dcc.ufmg.br.quizdetestesunidade.R;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.*;
@@ -30,11 +31,13 @@ public class QuestionsActivity extends AppCompatActivity {
     private Button progressTextView;
     private TextView numberTextView;
     private List<Question> questions;
+
     private ArrayList<Integer> answers;
     private ArrayList<Integer> hints;
 
     public static final String CORRECT_QUESTIONS = "correct";
     public static final String ANSWERED_QUESTIONS = "answered";
+    private String questionsPath;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,18 +51,29 @@ public class QuestionsActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.list_view);
 
         Intent intent = getIntent();
-        String questionsPath = intent.getStringExtra(ModulesActivity.QUESTIONS_FILE_PATH);
+        questionsPath = intent.getStringExtra(ModulesActivity.QUESTIONS_FILE_PATH);
         final String questionsActivity = intent.getStringExtra(ModulesActivity.QUESTIONS_ACTIVITY);
         setTitle(questionsActivity);
 
         questions = readQuestions(questionsPath);
 
-        answers = new ArrayList<>();
-        hints = new ArrayList<>();
-        for (int i = 0; i < questions.size(); i++) {
-            answers.add(-1);
-            hints.add(-1);
+        Database.QuestionsData questionsData = Database.loadQuestionsData(this, questionsPath);
+
+        if (questionsData == null) {
+
+            answers = new ArrayList<>();
+            hints = new ArrayList<>();
+            for (int i = 0; i < questions.size(); i++) {
+                answers.add(-1);
+                hints.add(-1);
+            }
         }
+        else {
+            answers = questionsData.answers;
+            hints = questionsData.hints;
+
+        }
+
 
         currentQuestion = 0;
 
@@ -108,6 +122,9 @@ public class QuestionsActivity extends AppCompatActivity {
 
         listView.addHeaderView(header, null, false);
         updateQuestion();
+
+        if (questionsData != null) nextUnanswered();;
+
     }
 
     private void showHint() {
@@ -118,7 +135,17 @@ public class QuestionsActivity extends AppCompatActivity {
 
         int hintIndex = Math.abs(new Random().nextInt()) % possibleHints.size();
         hints.set(currentQuestion, possibleHints.get(hintIndex));
+        writeData();
+
         updateQuestion();
+    }
+
+    private void writeData() {
+        Database.QuestionsData data = new Database.QuestionsData();
+        data.hints = hints;
+        data.answers = answers;
+        Database.writeQuestionsData(this, questionsPath, data);
+
     }
 
     private void updateQuestion() {
@@ -209,6 +236,7 @@ public class QuestionsActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 int index = (int) l;
                 answers.set(currentQuestion, index);
+                writeData();
                 updateQuestion(false);
 
                 final AtomicBoolean cancelCopy = cancel;
