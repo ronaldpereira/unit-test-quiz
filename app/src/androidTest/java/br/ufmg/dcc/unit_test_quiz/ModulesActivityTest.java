@@ -2,30 +2,17 @@ package br.ufmg.dcc.unit_test_quiz;
 
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.AssetManager;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.espresso.assertion.ViewAssertions;
 import android.support.test.runner.AndroidJUnit4;
 import android.support.test.rule.ActivityTestRule;
-import android.view.View;
-import android.widget.ListView;
 
-import org.hamcrest.Description;
-import org.hamcrest.Matcher;
-import org.hamcrest.TypeSafeMatcher;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import java.io.IOException;
-import java.io.InputStream;
-
 import dcc.ufmg.br.quizdetestesunidade.R;
 
-import static android.support.test.InstrumentationRegistry.getInstrumentation;
 import static android.support.test.espresso.Espresso.onData;
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
@@ -43,40 +30,6 @@ import static org.junit.Assert.*;
  */
 @RunWith(AndroidJUnit4.class)
 public class ModulesActivityTest {
-
-    private int getAssetJsonSize() {
-
-        AssetManager  assets = getInstrumentation().getTargetContext().getResources().getAssets();
-        InputStream   inputStream;
-        String        jsonString = null;
-        JSONArray     jsonArray;
-
-        try {
-            inputStream = assets.open("activities.json");
-            jsonString  = IOUtils.readInputStream(inputStream);
-        } catch (IOException ioex) {
-            System.out.println(ioex.getMessage());
-        }
-
-        int count = 0;
-
-        try {
-
-            jsonArray = new JSONArray(jsonString);
-
-            for (int i = 0; i < jsonArray.length(); i++) {
-
-                JSONObject module = jsonArray.getJSONObject(i);
-                JSONArray activities = module.getJSONArray("activities");
-
-                count += activities.length() + 1;
-            }
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-
-        return count;
-    }
 
     @Rule
     public final ActivityTestRule<ModulesActivity> modulesActivityRule = new ActivityTestRule<>(ModulesActivity.class);
@@ -102,7 +55,7 @@ public class ModulesActivityTest {
     @Test
     public void checkNotNull() {
 
-        int jsonSize = getAssetJsonSize();
+        int jsonSize = Util.getAssetJsonSize();
 
         if (jsonSize == 0) {
             fail();
@@ -115,14 +68,14 @@ public class ModulesActivityTest {
 
     @Test
     public void checkListViewCount() {
-        int jsonSize = getAssetJsonSize();
+        int jsonSize = Util.getAssetJsonSize();
         onView(withId(R.id.activities_list_view)).check(ViewAssertions.matches(Matchers.withListSize(jsonSize)));
     }
 
     @Test
     public void checkClickable() {
 
-        int jsonSize = getAssetJsonSize();
+        int jsonSize = Util.getAssetJsonSize();
 
         if (jsonSize == 0) {
             fail();
