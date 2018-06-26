@@ -1,6 +1,7 @@
 package br.ufmg.dcc.unit_test_quiz;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.AssetManager;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
@@ -80,7 +81,31 @@ public class ModulesActivityTest {
     }
 
     @Test
-    public void checkConceitosBasicos() {
+    public void checkClickable_ConceitosBasicos() {
+
+        JSONArray conceitosBasicos = getAssetJson(0);
+
+        if (conceitosBasicos == null) {
+            fail();
+        }
+
+        try {
+            for (int j = 0; j < conceitosBasicos.length(); j++) {
+
+                JSONObject activity = conceitosBasicos.getJSONObject(j);
+
+                modulesActivityRule.launchActivity(new Intent());
+                // Check if list item is not null.
+                onView(withText(activity.getString("name"))).perform(click());
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    @Test
+    public void checkNotNull_ConceitosBasicos() {
 
         JSONArray conceitosBasicos = getAssetJson(0);
 
