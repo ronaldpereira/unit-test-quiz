@@ -2,7 +2,9 @@ package br.ufmg.dcc.unit_test_quiz;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.support.test.InstrumentationRegistry;
+import android.support.test.espresso.DataInteraction;
 import android.support.test.espresso.ViewInteraction;
 import android.support.test.runner.AndroidJUnit4;
 import android.support.test.rule.ActivityTestRule;
@@ -60,6 +62,35 @@ public class QuestionsActivityTest {
             String afterState = Matchers.getText(withId(R.id.question_number_text_view));
 
             assertEquals(beforeState, afterState);
+        }
+
+    }
+
+    @Test
+    public void checkChooseAnswer() {
+
+        int jsonSize = Util.getAssetJsonSize();
+
+        if (jsonSize == 0) {
+            fail();
+        }
+
+        for (int j = 1; j < 4; j++) {
+
+            modulesActivityRule.launchActivity(new Intent());
+
+            onData(anything()).inAdapterView(withId(R.id.activities_list_view)).atPosition(j).perform(click());
+
+            DataInteraction selected = onData(anything()).inAdapterView(withId(R.id.list_view)).atPosition(1);
+
+            String beforeProgressText = Matchers.getText(withId(R.id.progress_text_button));
+
+            selected.perform(click());
+
+            String afterProgressText = Matchers.getText(withId(R.id.progress_text_button));
+
+            selected.check(matches(Matchers.selectOption(beforeProgressText, afterProgressText)));
+
         }
 
     }
